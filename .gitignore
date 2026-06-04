@@ -1,0 +1,6 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+
+# Drafts in progress (uncomment if you want to keep WIP out of git)
+#chapters/_wip/
