@@ -169,12 +169,15 @@ def build_chapter(chap: str) -> Path:
     return out
 
 
+COVER_URL = "https://hel1.your-objectstorage.com/openclaw83/shivaji/cover/cover.png"
+
+
 def build_index():
     chaps = sorted(p.stem for p in PAGES.glob("ch*.html"))
     items = "\n".join(
-        f'<li><a href="{c}.html">Chapter {int(re.sub(r"D", "", c)) if c.isdigit() else int(re.sub(r"[^0-9]", "", c))}</a></li>'
+        f'<li><a href="{c}.html">Chapter {int(re.sub(r"[^0-9]", "", c))} — {html.escape(chapter_title(c)).split("— ",1)[-1]}</a></li>'
         for c in chaps)
-    (PAGES / "index.html").write_text(INDEX_TMPL.format(items=items))
+    (PAGES / "index.html").write_text(INDEX_TMPL.format(items=items, cover=bust(COVER_URL)))
 
 
 # --------------------------------------------------------------------------- #
@@ -255,14 +258,19 @@ INDEX_TMPL = """<!DOCTYPE html>
     max-width:640px; margin:0 auto; padding:3rem 1.25rem; line-height:1.7; }}
   .series {{ letter-spacing:.18em; text-transform:uppercase; font-size:.72rem; color:#8a3a1f; }}
   h1 {{ margin:.3rem 0 1.5rem; }}
+  img.cover {{ display:block; width:100%; max-width:460px; margin:0 auto 2.2rem;
+    border-radius:6px; box-shadow:0 10px 34px rgba(60,40,20,.28); }}
+  h2.toc {{ text-align:center; color:#8a3a1f; font-size:.82rem; letter-spacing:.14em;
+    text-transform:uppercase; border-top:1px solid #efe6d3; border-bottom:1px solid #efe6d3;
+    padding:.6rem 0; margin:0 0 1.2rem; }}
   ul {{ list-style:none; padding:0; }}
   li {{ margin:.4rem 0; font-size:1.2rem; }}
   a {{ color:#8a3a1f; text-decoration:none; }}
   a:hover {{ text-decoration:underline; }}
 </style></head>
 <body>
-  <div class="series">Chhatrapati Shivaji &middot; Volume 1</div>
-  <h1>The Boy of Shivneri</h1>
+  <img class="cover" src="{cover}" alt="The Boy of Shivneri — cover">
+  <h2 class="toc">Contents</h2>
   <ul>{items}</ul>
 </body></html>
 """
