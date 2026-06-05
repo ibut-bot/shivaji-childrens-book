@@ -1,0 +1,87 @@
+{
+  "_comment": "Key illustrated events for Chapter 5 (verified rebuilding + clearly-labelled legend). 'anchor' is an EXACT substring of chapters/ch05.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER references are signed off. Legend scenes (the curse, the golden plough) illustrate the famous traditional story, which the text frames as legend.",
+  "chapter": 5,
+  "events": [
+    {
+      "slug": "ch05-arrival-ashes",
+      "title": "The city of ashes",
+      "anchor": "What lay in front of him was a grey scatter of broken things.",
+      "scene_prompt": "Six-year-old Shivaji stands up in a travelling bullock-cart, staring out at the ruined, abandoned town of Pune — a desolate grey scatter of burnt house-stumps and broken walls overgrown with thorn, empty lanes, choked wells, a couple of thin stray dogs. Jijabai sits beside him, calm and resolute. Bleak hills beyond. Shock and quiet determination meeting devastation.",
+      "refs": [
+        "pune-ruined",
+        "jijabai",
+        "shivaji-boy"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch05/ch05-arrival-ashes.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch05/ch05-arrival-ashes.png",
+        "local": "reference/events/ch05/ch05-arrival-ashes.png"
+      }
+    },
+    {
+      "slug": "ch05-the-curse",
+      "title": "The curse on the land (the story goes)",
+      "anchor": "harnessed it not to an ox but to a donkey",
+      "scene_prompt": "A legendary, story-book depiction of the old tale: in the ruined town, an enemy soldier drags a wooden plough harnessed not to an ox but to a small donkey, cutting a long ugly furrow across the dead ground to 'curse' the place forever, an iron bar driven into the earth nearby. Bleak, symbolic, slightly ominous but not gory — clearly a remembered legend, like an old illustration.",
+      "refs": [
+        "pune-ruined",
+        "deccan-sultanate-soldier"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch05/ch05-the-curse.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch05/ch05-the-curse.png",
+        "local": "reference/events/ch05/ch05-the-curse.png"
+      }
+    },
+    {
+      "slug": "ch05-dadoji-survey",
+      "title": "Water, seed, and fair dealing",
+      "anchor": "A curse I cannot lift,",
+      "scene_prompt": "The lean, grey, exacting old administrator Dadoji Konddev stands amid the ruins of Pune with Jijabai, surveying the desolation calmly — a rolled ledger/account scroll in his hand, gesturing at a choked well and a burnt field, all business and no fear, planning the rebuilding. Jijabai listens, resolute. Practical, hopeful, the start of the work.",
+      "refs": [
+        "dadoji-konddev",
+        "jijabai",
+        "pune-ruined"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch05/ch05-dadoji-survey.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch05/ch05-dadoji-survey.png",
+        "local": "reference/events/ch05/ch05-dadoji-survey.png"
+      }
+    },
+    {
+      "slug": "ch05-golden-plough",
+      "title": "Undone with gold and courage (the story goes)",
+      "anchor": "ploughed again from end to end with that golden plough",
+      "hero": true,
+      "scene_prompt": "The beloved legend, as a luminous story-book scene: on a bright chosen day, the dead cursed ground of Pune is ceremonially re-ploughed with a gleaming golden plough, the first bright furrow being turned, while Jijabai and young Shivaji and a handful of returning farming families watch with hope. Sunlit, warm, triumphant and symbolic — courage answering a curse. Clearly framed as a cherished legend.",
+      "refs": [
+        "golden-plough",
+        "jijabai",
+        "shivaji-boy",
+        "maval-village"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch05/ch05-golden-plough.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch05/ch05-golden-plough.png",
+        "local": "reference/events/ch05/ch05-golden-plough.png"
+      }
+    },
+    {
+      "slug": "ch05-lal-mahal-home",
+      "title": "A home, and the lamps coming on",
+      "anchor": "the two of them watching the lamps come on across the rebuilt lanes",
+      "scene_prompt": "Evening at the Lal Mahal, the warm red-brown two-storey Maratha mansion in the reviving town of Pune. Jijabai and young Shivaji stand together on the veranda or balcony, looking out over the rebuilt lanes where lamps are coming on one by one, green fields and hills beyond. Warm, golden, hopeful — the first real home, a town brought back from the dead. Tender mother-and-son closing mood.",
+      "refs": [
+        "lal-mahal",
+        "jijabai",
+        "shivaji-boy"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch05/ch05-lal-mahal-home.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch05/ch05-lal-mahal-home.png",
+        "local": "reference/events/ch05/ch05-lal-mahal-home.png"
+      }
+    }
+  ]
+}

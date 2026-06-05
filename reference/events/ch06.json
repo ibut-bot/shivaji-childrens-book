@@ -1,0 +1,70 @@
+{
+  "_comment": "Key illustrated events for Chapter 6 (developmental chapter; verified shape of Shivaji's dual education, framed representatively). 'anchor' is an EXACT substring of chapters/ch06.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER references are signed off.",
+  "chapter": 6,
+  "events": [
+    {
+      "slug": "ch06-the-ledger",
+      "title": "Not a sword — an account book",
+      "anchor": "It was an account book.",
+      "scene_prompt": "Indoors at the Lal Mahal: the grey, exacting old administrator Dadoji Konddev sits with an older boy Shivaji (about eleven) over an open account book and land-maps spread on a low desk, a reed pen and ledgers around them. Dadoji points at a row of figures, teaching; the boy listens, a little impatient but attentive. Warm lamplit study scene — learning to govern, not just fight.",
+      "refs": [
+        "dadoji-konddev",
+        "shivaji-youth",
+        "lal-mahal"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch06/ch06-the-ledger.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch06/ch06-the-ledger.png",
+        "local": "reference/events/ch06/ch06-the-ledger.png"
+      }
+    },
+    {
+      "slug": "ch06-arms-training",
+      "title": "Lean, quick, and hard to knock down",
+      "anchor": "he learned to wrestle in the red earth",
+      "scene_prompt": "Outdoor training ground in Pune: the older boy Shivaji (about eleven) trains hard in the martial arts among tough, hill-bred Mavala fighters — wrestling in red earth, practising with sword and spear, a horse nearby. Energetic, dusty, vigorous; his instructors lean and weathered, not going easy on him. Sunlit, spirited.",
+      "refs": [
+        "shivaji-youth",
+        "mavala-soldier"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch06/ch06-arms-training.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch06/ch06-arms-training.png",
+        "local": "reference/events/ch06/ch06-arms-training.png"
+      }
+    },
+    {
+      "slug": "ch06-village-justice",
+      "title": "Fair, rank or no rank",
+      "anchor": "watched him sit and listen to farmers and weighers and complainers",
+      "scene_prompt": "A village justice scene: Dadoji Konddev sits hearing a dispute among Maval villagers — farmers and a grain-weigher and a complainer — patiently working out who is owed what and making it come out fair, holding even a well-dressed headman to account. The older boy Shivaji stands at his side, watching closely and learning. Maval village setting, ordinary people, a quiet lesson in fairness.",
+      "refs": [
+        "dadoji-konddev",
+        "shivaji-youth",
+        "maval-village"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch06/ch06-village-justice.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch06/ch06-village-justice.png",
+        "local": "reference/events/ch06/ch06-village-justice.png"
+      }
+    },
+    {
+      "slug": "ch06-riding-the-maval",
+      "title": "Learning the hills and their people",
+      "anchor": "Shivaji rode out into the country his family was now responsible for",
+      "hero": true,
+      "scene_prompt": "The older boy Shivaji (about eleven) rides on horseback through the folded Maval hill-country, pausing among ordinary Maval villagers — farmers and herders — who greet him warmly as he asks after their harvest and their wells. He is curious and listening, not lordly; they are poor, proud hill people. Sweeping green-brown hills, terraced fields, a village in its fold. Warm, expansive — the bond between the boy and the hill people beginning.",
+      "refs": [
+        "shivaji-youth",
+        "maval-hills",
+        "maval-village"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch06/ch06-riding-the-maval.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch06/ch06-riding-the-maval.png",
+        "local": "reference/events/ch06/ch06-riding-the-maval.png"
+      }
+    }
+  ]
+}

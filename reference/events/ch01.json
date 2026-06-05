@@ -1,0 +1,117 @@
+{
+  "_comment": "Key illustrated events for Chapter 1, in reading order. 'anchor' is an EXACT substring of chapters/ch01.md; the page builder inserts the event image after the paragraph containing it. 'refs' are entity slugs from reference/index.json — their reference images are passed to gpt-image edit-image for character/place consistency. 'image' is filled by tools/refgen.py.",
+  "chapter": 1,
+  "events": [
+    {
+      "slug": "ch01-night-journey",
+      "title": "The night road across the Deccan",
+      "anchor": "The Deccan lay dark and flat under a sky pricked with cold stars.",
+      "scene_prompt": "Night on the flat Deccan plain: a small escort of mounted Mavala soldiers with spears rides close beside a curtained palki (palanquin) carried by bearers, moving quietly across dark moonlit grassland under a vast star-filled sky. Far on the horizon, a faint red glow of a distant fire. No lamps are lit. Mood: quiet danger, and a mother being protected.",
+      "refs": [
+        "palki",
+        "maval-hills",
+        "mavala-soldier"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch01/ch01-night-journey.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch01/ch01-night-journey.png",
+        "local": "reference/events/ch01/ch01-night-journey.png"
+      }
+    },
+    {
+      "slug": "ch01-parting",
+      "title": "The parting",
+      "anchor": "saw him as he had been at the parting, tall on his grey horse",
+      "scene_prompt": "A remembered farewell: Shahaji, a tall Maratha warrior in saffron turban and armour, sits on his dusty grey war-horse and leans down to hold the hands of Jijabai, who stands beside the horse looking up at him. Soft warm dust-filled light, a blurred army camp behind. Bittersweet, loving, and brave.",
+      "refs": [
+        "shahaji",
+        "jijabai"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch01/ch01-parting.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch01/ch01-parting.png",
+        "local": "reference/events/ch01/ch01-parting.png"
+      }
+    },
+    {
+      "slug": "ch01-first-sight",
+      "title": "First sight of Shivneri",
+      "anchor": "Shivneri rose out of the morning mist like something a giant had set down and forgotten",
+      "scene_prompt": "Dawn breaking golden over the Deccan. Seen from the climbing road, the great black-rock hill-fort of Shivneri rises out of mist, green-crowned, its pale clifftop wall catching the first light, birds wheeling around the cliffs. Small in the foreground, the travellers, their Mavala escort and the palki pause to gaze up at it. Awe and relief.",
+      "refs": [
+        "shivneri-fort",
+        "maval-hills",
+        "palki",
+        "mavala-soldier"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch01/ch01-first-sight.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch01/ch01-first-sight.png",
+        "local": "reference/events/ch01/ch01-first-sight.png"
+      }
+    },
+    {
+      "slug": "ch01-climb-gates",
+      "title": "The climb through the seven gates",
+      "anchor": "The gate was not one gate but a trap of gates",
+      "hero": true,
+      "scene_prompt": "Hero illustration: Jijabai, an expecting Maratha noblewoman in a deep-maroon nine-yard saree and gold-bordered head-shawl, is climbing UPWARD on foot, ASCENDING a steep flight of stone steps that rises ahead of her toward a fortified gateway set higher up the hill. She and her Mavala escort face uphill and upward, backs partly to us, the stairway and the great spiked wooden gate looming above them at the top of the climb; murder-holes watch from overhead; shafts of daylight fall on the dark basalt. One Mavala soldier steadies her by the arm. She looks tired but determined and unafraid. Clear sense of going up, not down.",
+      "refs": [
+        "jijabai",
+        "shivneri-gates",
+        "mavala-soldier"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch01/ch01-climb-gates.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch01/ch01-climb-gates.png",
+        "local": "reference/events/ch01/ch01-climb-gates.png"
+      }
+    },
+    {
+      "slug": "ch01-rampart-refugees",
+      "title": "Watching the roads from the wall",
+      "anchor": "From the ramparts she watched the roads, and the roads were never empty now.",
+      "scene_prompt": "Jijabai stands at the high stone rampart of Shivneri, both hands resting on the parapet, looking down with quiet sorrow at distant winding roads where long lines of village families on foot carry children and copper pots, fleeing across the Maval hills below under a pale winter sky. Mood: compassion and growing resolve.",
+      "refs": [
+        "jijabai",
+        "shivneri-fort",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch01/ch01-rampart-refugees.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch01/ch01-rampart-refugees.png",
+        "local": "reference/events/ch01/ch01-rampart-refugees.png"
+      }
+    },
+    {
+      "slug": "ch01-temple-prayer",
+      "title": "A prayer to the goddess Shivai",
+      "anchor": "She asked for something harder.",
+      "scene_prompt": "Inside the small old stone temple of the goddess Shivai among the trees of the fort, Jijabai kneels with her forehead nearly to the floor before the dark carved stone idol, a single oil lamp casting a warm glow over the worn stone. Intimate, devotional, peaceful.",
+      "refs": [
+        "jijabai",
+        "shivai-temple"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch01/ch01-temple-prayer.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch01/ch01-temple-prayer.png",
+        "local": "reference/events/ch01/ch01-temple-prayer.png"
+      }
+    },
+    {
+      "slug": "ch01-birth-naming",
+      "title": "Shivai's child",
+      "anchor": "\"Shivaji,\" she said. \"For the lady of this hill.",
+      "scene_prompt": "Early-morning golden light pours across the fort. Jijabai rests, pale and joyful, cradling her swaddled newborn son with his shock of black hair, gazing down at him with love and out toward the small temple beyond the doorway. Warm, tender, and full of hope. Handled gently.",
+      "refs": [
+        "jijabai",
+        "shivaji-baby"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch01/ch01-birth-naming.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch01/ch01-birth-naming.png",
+        "local": "reference/events/ch01/ch01-birth-naming.png"
+      }
+    }
+  ]
+}

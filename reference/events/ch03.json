@@ -1,0 +1,99 @@
+{
+  "_comment": "Key illustrated events for Chapter 3, in reading order. 'anchor' is an EXACT substring of chapters/ch03.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER references are signed off.",
+  "chapter": 3,
+  "events": [
+    {
+      "slug": "ch03-storytelling",
+      "title": "The story of Rama",
+      "anchor": "To him the shadows were never just shadows.",
+      "scene_prompt": "Night indoors by a low oil lamp. Jijabai sits telling a story, one hand raised; young Shivaji (about six) sits cross-legged and utterly rapt, eyes shining. On the wall behind them the lamplight throws dramatic shadow-shapes of the tale he is imagining — a dark forest, a great bow, a ten-headed demon king. Warm golden foreground, mysterious shadow-play behind. Cosy and magical.",
+      "refs": [
+        "jijabai",
+        "shivaji-boy"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch03/ch03-storytelling.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch03/ch03-storytelling.png",
+        "local": "reference/events/ch03/ch03-storytelling.png"
+      }
+    },
+    {
+      "slug": "ch03-bhavani-vision",
+      "title": "The goddess on the side of the weak",
+      "anchor": "strength had once stood on the side of the weak",
+      "scene_prompt": "A child's vivid imagining of the goddess Bhavani: the night sky splitting open with radiant golden light as the goddess appears — serene and fierce, many arms raised with a curved sword and trident, her tiger beside her with eyes like two lamps — towering over a demon army that is suddenly not nearly enough. Glowing, uplifting, reverent and wondrous, like a vision glimpsed in a story. Not frightening.",
+      "refs": [
+        "goddess-bhavani"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch03/ch03-bhavani-vision.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch03/ch03-bhavani-vision.png",
+        "local": "reference/events/ch03/ch03-bhavani-vision.png"
+      }
+    },
+    {
+      "slug": "ch03-guarding-game",
+      "title": "Nobody gets past me to the village",
+      "anchor": "You're the village,",
+      "scene_prompt": "Daytime on a dusty patch beneath the fort ramparts: young Shivaji, planted firmly in front of a low wall of stacked firewood behind which a cluster of small fort children shelter, holds up his little carved wooden sword and faces off against two other children playing the 'raiders'. He is fierce, delighted, completely in charge — a born little guardian. The other children laughing and playing along. Warm, spirited, foreshadowing leadership.",
+      "refs": [
+        "shivaji-boy",
+        "wooden-sword"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch03/ch03-guarding-game.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch03/ch03-guarding-game.png",
+        "local": "reference/events/ch03/ch03-guarding-game.png"
+      }
+    },
+    {
+      "slug": "ch03-village-raid",
+      "title": "The village burns",
+      "anchor": "And then he saw the horsemen.",
+      "hero": true,
+      "scene_prompt": "Composition: in the FOREGROUND, high on the fort rampart, young Shivaji (a small boy) stands seen from behind, gripping the stone parapet and looking DOWN. FAR BELOW and in the distance, a small Maval hill-village is being raided: black smoke pouring up from burning thatched houses, a dozen tiny armoured horsemen driving off thin cattle while tiny villagers scatter into the terraced fields. The raiders and the village are small and far away, down in the valley — they must NOT be large or near the camera, and there must be NO armoured soldier standing in the foreground or on the rampart. The foreground is only the boy and the empty wall. Conveys injustice and helplessness through distance and rising smoke — no gore. The emotional turning point of the chapter.",
+      "refs": [
+        "shivaji-boy",
+        "maval-village",
+        "deccan-sultanate-soldier",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch03/ch03-village-raid.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch03/ch03-village-raid.png",
+        "local": "reference/events/ch03/ch03-village-raid.png"
+      }
+    },
+    {
+      "slug": "ch03-watching-from-wall",
+      "title": "Remember that you said it",
+      "anchor": "She only crouched down to his height, and held his shoulders",
+      "scene_prompt": "On the fort rampart: Jijabai crouches to her small son's height and holds his shoulders, looking steadily into his eyes. Young Shivaji's face is tear-streaked, furious and absolutely certain. Behind and below them, the distant valley still smokes. A charged, tender, pivotal mother-and-son moment — the seed of a life's purpose passing between them. Stone wall, hard clear light.",
+      "refs": [
+        "jijabai",
+        "shivaji-boy",
+        "shivneri-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch03/ch03-watching-from-wall.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch03/ch03-watching-from-wall.png",
+        "local": "reference/events/ch03/ch03-watching-from-wall.png"
+      }
+    },
+    {
+      "slug": "ch03-you-are-a-fort",
+      "title": "A day at a time",
+      "anchor": "You make yourself the same way. And one day you look up, and you are a fort.",
+      "scene_prompt": "Night: young Shivaji lies tucked under a shawl in the lamplight, eyes open and thoughtful, while Jijabai sits beside him drawing the shawl over his shoulder, speaking softly. Through a small window or doorway behind them, the dark silhouette of the great fort wall and a few stars. Quiet, intimate, hopeful — the calm after the storm of the day. Tender bedtime warmth.",
+      "refs": [
+        "jijabai",
+        "shivaji-boy"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch03/ch03-you-are-a-fort.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch03/ch03-you-are-a-fort.png",
+        "local": "reference/events/ch03/ch03-you-are-a-fort.png"
+      }
+    }
+  ]
+}

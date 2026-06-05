@@ -1,0 +1,57 @@
+{
+  "_comment": "Key illustrated events for Chapter 4 (VERIFIED-ONLY chapter). 'anchor' is an EXACT substring of chapters/ch04.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER sign-off. Each event depicts a documented happening (1636 collapse / Bijapur service in the Karnataka / the family's move to Pune) — no invented scenes.",
+  "chapter": 4,
+  "events": [
+    {
+      "slug": "ch04-war-ends",
+      "title": "An honourable defeat (1636)",
+      "anchor": "He made terms, and laid down the fight.",
+      "hero": true,
+      "scene_prompt": "1636: the end of Shahaji's long losing war. Shahaji — a dignified bearded Maratha warrior-noble in his tall plumed Deccan turban and robe — stands tall but defeated before the overwhelming power he could not beat: ranks of heavily-armoured Mughal/Deccan-sultanate cavalry and war-elephants and banners stretching away under a hard sky, a battered hill-fort behind him. He is making terms — proud and unbroken in bearing even in surrender. Solemn, grand, no fighting or gore; the weight of a brave cause lost.",
+      "refs": [
+        "shahaji",
+        "deccan-sultanate-soldier",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch04/ch04-war-ends.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch04/ch04-war-ends.png",
+        "local": "reference/events/ch04/ch04-war-ends.png"
+      }
+    },
+    {
+      "slug": "ch04-south-to-karnataka",
+      "title": "Into service, far to the south",
+      "anchor": "far to the south, into the Karnataka country",
+      "scene_prompt": "Shahaji, now in the service of Bijapur, rides away south toward the distant Karnataka with his Maratha retinue — mounted on his grey war-horse, escorted by lean Mavala riders, a long road unspooling into a hazy southern landscape of hills and open country. A capable soldier going to do a hard duty far from home. Wide, with a sense of great distance and departure.",
+      "refs": [
+        "shahaji",
+        "mavala-soldier",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch04/ch04-south-to-karnataka.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch04/ch04-south-to-karnataka.png",
+        "local": "reference/events/ch04/ch04-south-to-karnataka.png"
+      }
+    },
+    {
+      "slug": "ch04-journey-to-pune",
+      "title": "The road to Pune",
+      "anchor": "set out for Pune",
+      "scene_prompt": "1636: Jijabai and six-year-old Shivaji leave the great hill-fort of Shivneri (visible behind them) and travel west toward Pune — Jijabai dignified, the small boy beside her, a curtained palki and a few servants and Maratha escort on a winding hill road through the Maval country. Leaving the safe rock for an unknown, ruined town. Hopeful and resolute, a new beginning.",
+      "refs": [
+        "jijabai",
+        "shivaji-boy",
+        "palki",
+        "shivneri-fort",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch04/ch04-journey-to-pune.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch04/ch04-journey-to-pune.png",
+        "local": "reference/events/ch04/ch04-journey-to-pune.png"
+      }
+    }
+  ]
+}

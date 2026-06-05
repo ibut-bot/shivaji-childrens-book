@@ -1,0 +1,133 @@
+{
+  "_comment": "Key illustrated events for Chapter 2, in reading order. 'anchor' is an EXACT substring of chapters/ch02.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER references are signed off.",
+  "chapter": 2,
+  "events": [
+    {
+      "slug": "ch02-counting-fires",
+      "title": "Counting the army's fires",
+      "anchor": "He lay on his stomach on the cold stone of the rampart, chin on his folded arms, lips moving in the dark.",
+      "hero": true,
+      "scene_prompt": "Night on the high rampart of Shivneri. Young Shivaji (about five), all black hair and elbows, lies on his stomach on the cold stone, chin on his folded arms, counting the thousand tiny campfires of a distant army spread across the black plain far below — like a fallen sky of embers. The old grey-bearded killedar stands behind him, a shadow against the stars. Vast, quiet, wondrous and a little ominous.",
+      "refs": [
+        "shivaji-boy",
+        "killedar-shivneri",
+        "shivneri-fort",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch02/ch02-counting-fires.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch02/ch02-counting-fires.png",
+        "local": "reference/events/ch02/ch02-counting-fires.png"
+      }
+    },
+    {
+      "slug": "ch02-three-armies",
+      "title": "Three armies cross the land",
+      "anchor": "In one season they watched three armies cross the country below Shivneri.",
+      "scene_prompt": "Wide daylight view from the fort walls looking down over the Maval hills: a long column of a Deccan sultanate army winds across the country below — armoured cavalry in mail-and-plate and spiked helmets, war-elephants, dust, and bright banners. The land they cross is trampled and scarred. Sense of vast, grinding power passing over ordinary fields. Tiny figures of the boy and killedar watch from the wall above.",
+      "refs": [
+        "deccan-sultanate-soldier",
+        "maval-hills",
+        "shivneri-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch02/ch02-three-armies.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch02/ch02-three-armies.png",
+        "local": "reference/events/ch02/ch02-three-armies.png"
+      }
+    },
+    {
+      "slug": "ch02-refugees-at-gate",
+      "title": "The people at the gate",
+      "anchor": "He stood at the parapet above the gate and looked down at them",
+      "scene_prompt": "Young Shivaji stands at the stone parapet above the fort's first gate, looking down with troubled eyes at a crowd of famine refugees gathered in the dust at the foot of the hill — whole families with bundles, mothers with babies, thin children with the still patient faces of those who have stopped expecting things, all looking up at the walls. Pale, hard winter light. Compassion and helplessness.",
+      "refs": [
+        "shivaji-boy",
+        "shivneri-gates",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch02/ch02-refugees-at-gate.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch02/ch02-refugees-at-gate.png",
+        "local": "reference/events/ch02/ch02-refugees-at-gate.png"
+      }
+    },
+    {
+      "slug": "ch02-sharing-bread",
+      "title": "The boy who shared his bread",
+      "anchor": "so he said nothing and held out the bread",
+      "scene_prompt": "At the foot of the fort among the refugees: young Shivaji stands holding out his own piece of bhakri (flat millet bread) to a hungry refugee boy his own age with a hollow face and enormous eyes. The other boy takes it in both hands and breaks it in half to share with an even smaller child beside him. Tender, quiet, heart-catching. Baskets of shared grain around them.",
+      "refs": [
+        "shivaji-boy"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch02/ch02-sharing-bread.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch02/ch02-sharing-bread.png",
+        "local": "reference/events/ch02/ch02-sharing-bread.png"
+      }
+    },
+    {
+      "slug": "ch02-letter",
+      "title": "A letter from the father he'd never met",
+      "anchor": "Read me the part with my name in it",
+      "scene_prompt": "Indoors by warm lamplight: Jijabai sits holding an opened folded letter, the small engraved brass box of older letters open beside her. Young Shivaji leans in close, listening with his whole body, trying to hear a voice he has never heard. Intimate, warm, wistful — an absent father felt through ink.",
+      "refs": [
+        "jijabai",
+        "shivaji-boy",
+        "brass-letter-box"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch02/ch02-letter.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch02/ch02-letter.png",
+        "local": "reference/events/ch02/ch02-letter.png"
+      }
+    },
+    {
+      "slug": "ch02-riders-at-gate",
+      "title": "Turned away at the first gate",
+      "anchor": "Their captain rode to within shouting distance of the first gate",
+      "scene_prompt": "A band of about forty Deccan sultanate cavalry — mail-and-plate armour, spiked top helmets, curved swords — sit their horses on the road below the fort's first gate, their captain looking up and demanding the stores. High on the angled spiked-gate wall above, the lean old killedar stands calm and unafraid among his men, refusing. Tense stand-off, no violence; the fort's strength quietly winning. Each soldier a distinct face.",
+      "refs": [
+        "deccan-sultanate-soldier",
+        "shivneri-gates",
+        "killedar-shivneri"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch02/ch02-riders-at-gate.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch02/ch02-riders-at-gate.png",
+        "local": "reference/events/ch02/ch02-riders-at-gate.png"
+      }
+    },
+    {
+      "slug": "ch02-wooden-sword",
+      "title": "Defending the gate",
+      "anchor": "marched up and down the courtyard with a wooden sword",
+      "scene_prompt": "Evening in the fort courtyard: young Shivaji marches up and down scowling tremendously, brandishing a little carved wooden practice sword, fighting off forty invisible horsemen and defeating them all. Jijabai watches fondly from a lamplit doorway, half-smiling, half-sorrowful. Warm, charming, with a bittersweet undertone.",
+      "refs": [
+        "shivaji-boy",
+        "wooden-sword",
+        "jijabai"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch02/ch02-wooden-sword.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch02/ch02-wooden-sword.png",
+        "local": "reference/events/ch02/ch02-wooden-sword.png"
+      }
+    },
+    {
+      "slug": "ch02-evening-story",
+      "title": "The first story",
+      "anchor": "Let me tell you about a prince",
+      "scene_prompt": "Late evening, indoors by a single small oil lamp: Jijabai wraps a drowsy young Shivaji in a shawl and holds him close, beginning to tell him a story. On the wall behind, the lamplight throws soft shadow-shapes of old tales — a prince, a demon, a great bow. Cosy, golden, full of love and quiet promise. The boy is just a sleepy five-year-old again.",
+      "refs": [
+        "jijabai",
+        "shivaji-boy"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch02/ch02-evening-story.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch02/ch02-evening-story.png",
+        "local": "reference/events/ch02/ch02-evening-story.png"
+      }
+    }
+  ]
+}

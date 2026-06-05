@@ -1,0 +1,364 @@
+{
+  "_comment": "Canonical reference library for the Shivaji series. Accumulates across chapters. 'image' is filled in by tools/refgen.py. visual_description is the locked look used for continuity AND fed into event prompts.",
+  "style": "Expressive illustrated graphic-novel art style, one consistent look across the whole series: bold confident inked linework, dynamic and cinematic compositions, dramatic lighting with strong light and shadow, rich saturated colour and painterly cel-shading, emotive characterful faces — the look of a high-quality middle-grade graphic novel. Historically grounded in 1630s Maharashtra / the Deccan, India — accurate Maratha clothing, hill-fort architecture, weapons, and landscape. Wholesome and age-appropriate for readers aged 8-12.",
+  "entities": {
+    "jijabai": {
+      "slug": "jijabai",
+      "name": "Jijabai",
+      "type": "character",
+      "first_chapter": 1,
+      "visual_description": "Jijabai, a dignified Maratha noblewoman in her early thirties with a calm, strong face and steady dark eyes. She wears a traditional nine-yard Maharashtrian saree (nauvari) in deep maroon-red with a green-and-gold border, a gold nose-ring (nath), small gold earrings, and a fine gold-bordered shawl drawn over her head and shoulders. Dark hair parted in the middle and tied back. Quiet, upright, brave bearing. (In Chapter 1 she is expecting a child.)",
+      "ref_prompt": "Character reference sheet: full-length standing figure, calm dignified expression, hands resting together, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/jijabai.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/jijabai.png",
+        "local": "reference/characters/jijabai.png"
+      }
+    },
+    "shahaji": {
+      "slug": "shahaji",
+      "name": "Shahaji Bhonsle",
+      "type": "character",
+      "first_chapter": 1,
+      "visual_description": "Shahaji Bhonsle, a dignified Maratha warrior-noble of the Deccan in his thirties, matching his documented likeness: a full rounded black beard and moustache, strong features, warm steady eyes. He wears the distinctive tall, pointed Deccan-Maratha turban with a band and an upward-curving feather plume (kalga) at the front, a long robe (jama/angarkha) of rich cloth tied with a sash (kamarband), a pearl necklace, and carries a curved talwar with a disc hilt. Noble, commanding, and kind.",
+      "ref_prompt": "Character reference sheet: full-length standing figure, one hand resting on his sheathed talwar, the hint of a grey war-horse behind, dignified posture, plain soft pale background, full body clearly visible.",
+      "source_refs": [
+        "https://hel1.your-objectstorage.com/openclaw83/shivaji/_work/shahaji-source-1923.jpg"
+      ],
+      "image": {
+        "s3_key": "shivaji/reference/characters/shahaji.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/shahaji.png",
+        "local": "reference/characters/shahaji.png"
+      }
+    },
+    "shivaji-baby": {
+      "slug": "shivaji-baby",
+      "name": "Shivaji (newborn)",
+      "type": "character",
+      "first_chapter": 1,
+      "visual_description": "The newborn Shivaji: a healthy infant with a surprising shock of black hair and small clenched fists, wrapped snugly in a soft cream cloth with a thin saffron border. Bright, alert, full of life.",
+      "ref_prompt": "Reference close study of the swaddled newborn held in cupped hands, plain soft pale background.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/shivaji-baby.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/shivaji-baby.png",
+        "local": "reference/characters/shivaji-baby.png"
+      }
+    },
+    "killedar-shivneri": {
+      "slug": "killedar-shivneri",
+      "name": "The killedar of Shivneri",
+      "type": "character",
+      "first_chapter": 1,
+      "visual_description": "The old killedar (fort-keeper) of Shivneri: a lean, grey-bearded Maratha soldier in his sixties with a weathered, kind face and careful eyes. He wears a plain saffron turban, a simple long tunic with a sash, an old shawl, and a short sword. Upright old-soldier bearing.",
+      "ref_prompt": "Character reference sheet: full-length standing figure, dignified weathered expression, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/killedar-shivneri.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/killedar-shivneri.png",
+        "local": "reference/characters/killedar-shivneri.png"
+      }
+    },
+    "shivneri-fort": {
+      "slug": "shivneri-fort",
+      "name": "Shivneri fort",
+      "type": "location",
+      "first_chapter": 1,
+      "visual_description": "Shivneri fort: a massive black-basalt hill-fort rising sheer out of morning mist in the Deccan, a green crown of trees at the very top and a pale stone wall running along the clifftop edge. Birds wheel around its cliffs. Vast and ancient, as if the earth itself grew it to guard something precious.",
+      "ref_prompt": "Wide establishing landscape view of the whole hill-fort, no people, soft morning light and mist.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/shivneri-fort.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/shivneri-fort.png",
+        "local": "reference/locations/shivneri-fort.png"
+      }
+    },
+    "shivneri-gates": {
+      "slug": "shivneri-gates",
+      "name": "The seven gates of Shivneri",
+      "type": "location",
+      "first_chapter": 1,
+      "visual_description": "The famous fortified gates of Shivneri: a steep climbing stone passage of narrow angled gateways cut into the cliff, heavy wooden doors studded with iron spikes, murder-holes watching from above, each gate turned at a different angle so no charge can run straight. Dark basalt walls, shafts of daylight.",
+      "ref_prompt": "Architectural reference view looking up the steep angled fortified stone gateway passage, no people, dramatic daylight shafts.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/shivneri-gates.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/shivneri-gates.png",
+        "local": "reference/locations/shivneri-gates.png"
+      }
+    },
+    "shivai-temple": {
+      "slug": "shivai-temple",
+      "name": "Temple of the goddess Shivai",
+      "type": "location",
+      "first_chapter": 1,
+      "visual_description": "A small, old stone temple tucked among trees near the highest point of Shivneri fort, dedicated to the goddess Shivai. A worn dark-stone shrine with a carved stone idol of the goddess inside, smoothed by a thousand hands, lit by the warm glow of an oil lamp. Peaceful and sacred.",
+      "ref_prompt": "Reference view of the small stone temple among trees with a glimpse of the dark stone goddess idol and oil-lamp glow within, no people.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/shivai-temple.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/shivai-temple.png",
+        "local": "reference/locations/shivai-temple.png"
+      }
+    },
+    "maval-hills": {
+      "slug": "maval-hills",
+      "name": "The Maval hill-country",
+      "type": "location",
+      "first_chapter": 1,
+      "visual_description": "The Maval country west of Pune: brown-and-green folded hills and valleys rolling away to the horizon like a frozen sea, scattered scrub, terraced fields, and the big open Deccan sky. Beautiful and rugged.",
+      "ref_prompt": "Wide empty landscape reference of the rolling Deccan hill country, no people, soft natural light.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/maval-hills.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/maval-hills.png",
+        "local": "reference/locations/maval-hills.png"
+      }
+    },
+    "palki": {
+      "slug": "palki",
+      "name": "The palki (palanquin)",
+      "type": "object",
+      "first_chapter": 1,
+      "visual_description": "A covered palanquin (palki): a curtained wooden seat slung beneath a single long carrying-pole, with red-and-cream curtains and a simply carved wooden frame, for a noblewoman of the 1630s Deccan.",
+      "ref_prompt": "Object reference study of the curtained palanquin, three-quarter view, plain soft background, no people.",
+      "image": {
+        "s3_key": "shivaji/reference/objects/palki.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/palki.png",
+        "local": "reference/objects/palki.png"
+      }
+    },
+    "brass-letter-box": {
+      "slug": "brass-letter-box",
+      "name": "Jijabai's brass letter box",
+      "type": "object",
+      "first_chapter": 1,
+      "visual_description": "A small hinged brass box, hand-sized, engraved with simple Deccan patterns, holding a few folded letters on rough paper — Shahaji's messages from the war, which Jijabai keeps and rereads.",
+      "ref_prompt": "Object reference study close-up of the small engraved brass box, lid open with folded letters inside, plain soft background.",
+      "image": {
+        "s3_key": "shivaji/reference/objects/brass-letter-box.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/brass-letter-box.png",
+        "local": "reference/objects/brass-letter-box.png"
+      }
+    },
+    "mavala-soldier": {
+      "slug": "mavala-soldier",
+      "name": "Mavala foot-soldier",
+      "type": "character",
+      "first_chapter": 1,
+      "visual_description": "A Mavala (Maval hillman) foot-soldier of the western Deccan, the iconic look: a lean, proud warrior with a large upturned curled moustache and a small forehead tilak. SIGNATURE HEADGEAR: a WIDE, FLAT, TWIN-PEAKED (two-cornered) DEEP-MAROON / dark-red Maratha pheta turban worn low — broad and flattish with two soft horns at the sides, NOT tall and NOT pointed and NOT saffron. He wears a WHITE full-sleeved knee-length tunic (angarkha) tied to one side at the chest, a wide bright ORANGE waist sash (kamarband), and WHITE fitted gathered trousers (churidar). FOOTWEAR: enclosed closed-toe traditional Maratha shoes (mojari / juti) with pointed toes that curl sharply UPWARD — NOT open sandals, NOT flat chappals. ARMAMENT: he HOLDS a CURVED talwar sword (curved single-edged blade, disc hilt) in one hand, and on the other arm a SMALL round buckler-style shield — a dark circular metal shield (dhal) bearing FOUR raised bosses / rivets ('buttons') on its front face. Lean and rugged, built for mountain warfare — not heavily armoured.",
+      "ref_prompt": "Character reference sheet: full-length standing figure facing forward, curved talwar raised in one hand and the small dark four-bossed round buckler on the other arm, plain soft pale background, the whole body and ESPECIALLY the headgear, the upward-pointed enclosed shoes, the curved sword and the small round shield all clearly visible.",
+      "source_refs": [
+        "https://hel1.your-objectstorage.com/openclaw83/shivaji/_work/mavala-source.jpg"
+      ],
+      "image": {
+        "s3_key": "shivaji/reference/characters/mavala-soldier.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/mavala-soldier.png",
+        "local": "reference/characters/mavala-soldier.png"
+      }
+    },
+    "shivaji-boy": {
+      "slug": "shivaji-boy",
+      "name": "Shivaji (as a boy)",
+      "type": "character",
+      "first_chapter": 2,
+      "visual_description": "Young Shivaji at about five years old: a bright, sturdy Maratha boy with a thick mop of glossy black hair, large alert dark eyes, and a curious, fearless, friendly face. He wears a simple everyday outfit of the 1630s Deccan — a plain cream/white short cotton tunic (angi) and a small knee-length dhoti with a little waist sash, often barefoot. Lively and quick, full of questions. (This is the child version of the series' hero; he should read as clearly the same person growing up.)",
+      "ref_prompt": "Character reference sheet: full-length standing figure of the young boy, bright curious expression, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/shivaji-boy.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/shivaji-boy.png",
+        "local": "reference/characters/shivaji-boy.png"
+      }
+    },
+    "deccan-sultanate-soldier": {
+      "slug": "deccan-sultanate-soldier",
+      "name": "Deccan sultanate soldier",
+      "type": "character",
+      "first_chapter": 2,
+      "visual_description": "A cavalry trooper of one of the Deccan sultanates (Bijapur / Ahmadnagar) — the heavily-equipped 'outside' armies, a deliberate visual contrast to the light white-clad Mavalas. He wears Indo-Persian mail-and-plate armour: a riveted chainmail shirt with large lobed steel chest plates over a bright coloured silk coat, a waist sash, and riding boots. On his head a steel 'top' helmet — a domed helmet with a small spike or plume on top, a sliding nasal bar, and a chainmail aventail hanging to guard the neck. Armed with a curved talwar, a round steel shield, and often a lance or matchlock. Bearded, martial, foreign-looking and well-armoured compared to the lean local hillmen.",
+      "ref_prompt": "Character reference sheet: full-length standing figure in mail-and-plate armour and spiked top helmet, talwar at the hip and round steel shield, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/deccan-sultanate-soldier.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/deccan-sultanate-soldier.png",
+        "local": "reference/characters/deccan-sultanate-soldier.png"
+      }
+    },
+    "wooden-sword": {
+      "slug": "wooden-sword",
+      "name": "The wooden practice sword",
+      "type": "object",
+      "first_chapter": 2,
+      "visual_description": "A child's wooden practice sword, carved by the fort carpenter for young Shivaji — a simple curved talwar shape cut from pale wood, with a plain rounded grip, slightly rough and toy-like but lovingly made. A boy's first sword.",
+      "ref_prompt": "Object reference study of the small carved wooden toy sword, three-quarter view, plain soft pale background, no people.",
+      "image": {
+        "s3_key": "shivaji/reference/objects/wooden-sword.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/wooden-sword.png",
+        "local": "reference/objects/wooden-sword.png"
+      }
+    },
+    "goddess-bhavani": {
+      "slug": "goddess-bhavani",
+      "name": "The goddess Bhavani",
+      "type": "character",
+      "first_chapter": 3,
+      "visual_description": "The goddess Bhavani (a form of Durga / Devi), as in Jijabai's tales and in Maratha devotion — depicted reverently and warmly. A radiant, powerful Hindu goddess with a serene yet fierce and maternal face, richly adorned in red and gold with fine jewellery and a golden halo of light. She has several arms, each holding a weapon — chiefly a raised curved sword (talwar), plus trident and other arms — and she is accompanied by or rides her tiger. Gentle and protective to the weak, terrible to the cruel. Storybook divine-vision quality, glowing and uplifting, never frightening.",
+      "ref_prompt": "Reverent reference portrait of the goddess, full figure, glowing divine light, her tiger beside her, simple deep neutral background.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/goddess-bhavani.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/goddess-bhavani.png",
+        "local": "reference/characters/goddess-bhavani.png"
+      }
+    },
+    "maval-village": {
+      "slug": "maval-village",
+      "name": "A Maval hill-village",
+      "type": "location",
+      "first_chapter": 3,
+      "visual_description": "A small, humble Maval hill-village of the 1630s Deccan: a cluster of low mud-brick and rough-stone houses with thatched and stone-slab roofs, narrow dusty lanes, a stone well, a few thin cattle, terraced millet fields on the slopes, and a tiny shrine — nestled in the brown-green folds of the Maval hills. Hardworking, ordinary, and vulnerable.",
+      "ref_prompt": "Wide establishing landscape view of the small hill-village among terraced fields in the Maval hills, no people, soft daylight.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/maval-village.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/maval-village.png",
+        "local": "reference/locations/maval-village.png"
+      }
+    },
+    "first-sword": {
+      "slug": "first-sword",
+      "name": "Shahaji's gift — Shivaji's first real sword",
+      "type": "object",
+      "first_chapter": 4,
+      "visual_description": "A real but child-sized curved talwar, a father's gift from Shahaji to young Shivaji: a finely made small sword with a gently curved single-edged steel blade and a traditional Maratha disc hilt of dark steel with simple gold inlay, in a red-and-gold scabbard. Beautiful, serious, lovingly chosen — clearly a real weapon scaled down for a boy, not a toy. The grown-up answer to the wooden sword.",
+      "ref_prompt": "Object reference study of the small ornate curved talwar with its red-and-gold scabbard beside it, three-quarter view, plain soft pale background, no people.",
+      "image": {
+        "s3_key": "shivaji/reference/objects/first-sword.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/first-sword.png",
+        "local": "reference/objects/first-sword.png"
+      }
+    },
+    "dadoji-konddev": {
+      "slug": "dadoji-konddev",
+      "name": "Dadoji Konddev",
+      "type": "character",
+      "first_chapter": 5,
+      "visual_description": "Dadoji Konddev, the lean, grey, exacting old administrator who managed Shahaji's Pune estate and was young Shivaji's guardian and first teacher. An elderly Maratha gentleman in his sixties with a neat grey moustache and short grey beard, sharp careful eyes, and a calm, no-nonsense, scholarly bearing. He wears dignified traditional administrator's dress of the 1640s Deccan: a clean cream/white angarkha robe tied with a sash, a neatly wound Maratha pheta turban, and a shawl (uparne) over one shoulder. He usually carries a rolled ledger or palm-leaf account scroll, and sometimes wears a sheathed sword (he also oversaw Shivaji's training). Frugal, honest, precise — a teacher and steward, clearly distinct from a soldier.",
+      "ref_prompt": "Character reference sheet: full-length standing figure, dignified scholarly-but-stern expression, holding a rolled ledger/account scroll, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/dadoji-konddev.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/dadoji-konddev.png",
+        "local": "reference/characters/dadoji-konddev.png"
+      }
+    },
+    "lal-mahal": {
+      "slug": "lal-mahal",
+      "name": "The Lal Mahal (Red Mansion)",
+      "type": "location",
+      "first_chapter": 5,
+      "visual_description": "The Lal Mahal ('Red Mansion') in Pune, Shivaji's childhood home: a handsome two-storey Maratha mansion of warm red-brown stone and timber, with carved wooden balconies and pillars, arched doorways, an inner courtyard and a shaded veranda, set among the reviving lanes of 1640s Pune with the Deccan hills beyond. Solid, dignified and welcoming — the first real home.",
+      "ref_prompt": "Wide establishing view of the warm red-brown two-storey Maratha mansion with its carved wooden balconies and courtyard, no people, warm daylight.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/lal-mahal.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/lal-mahal.png",
+        "local": "reference/locations/lal-mahal.png"
+      }
+    },
+    "pune-ruined": {
+      "slug": "pune-ruined",
+      "name": "Pune in ruins",
+      "type": "location",
+      "first_chapter": 5,
+      "visual_description": "The ruined, abandoned town of Pune before its rebuilding: a desolate grey scatter of burnt house-stumps and collapsed mud-and-stone walls with grass and thorn growing through them, choked dry wells, empty lanes, fields gone to scrub, a few thin stray dogs. Hushed, feared, and haunted by war, in the Deccan hills under a bleak sky.",
+      "ref_prompt": "Wide establishing view of the desolate ruined abandoned town among the hills, broken and overgrown, no people, soft bleak light.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/pune-ruined.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/pune-ruined.png",
+        "local": "reference/locations/pune-ruined.png"
+      }
+    },
+    "golden-plough": {
+      "slug": "golden-plough",
+      "name": "The golden plough (legend)",
+      "type": "object",
+      "first_chapter": 5,
+      "visual_description": "A ceremonial golden plough (sona-cha nangar) from the much-loved Pune legend: shaped like a traditional wooden Indian bullock-plough but worked in gleaming, ornately decorated gold — clearly precious and ceremonial rather than a working tool. Bright, symbolic, and hopeful.",
+      "ref_prompt": "Object reference study of the ornate golden ceremonial plough, three-quarter view, plain soft pale background, no people.",
+      "image": {
+        "s3_key": "shivaji/reference/objects/golden-plough.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/golden-plough.png",
+        "local": "reference/objects/golden-plough.png"
+      }
+    },
+    "shivaji-youth": {
+      "slug": "shivaji-youth",
+      "name": "Shivaji (as an older boy, ~10-12)",
+      "type": "character",
+      "first_chapter": 6,
+      "visual_description": "Shivaji as an older boy of about ten to twelve — the SAME child as the younger reference, now grown: lean, alert and quick, with the same thick black hair and bright intelligent dark eyes and a determined set to his face. Dressed as a young Maratha of the 1640s — a simple cream/white tunic (angi) and dhoti with a waist sash and a small turban or topi, sometimes barefoot or in simple shoes. A capable, watchful boy on the edge of his teens. Must clearly read as the same person as the younger Shivaji, just older.",
+      "ref_prompt": "Character reference sheet: full-length standing figure of the older boy (around eleven), alert intelligent expression, plain soft pale background, full body clearly visible.",
+      "source_refs": [
+        "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/shivaji-boy.png"
+      ],
+      "image": {
+        "s3_key": "shivaji/reference/characters/shivaji-youth.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/shivaji-youth.png",
+        "local": "reference/characters/shivaji-youth.png"
+      }
+    },
+    "shivaji-teen": {
+      "slug": "shivaji-teen",
+      "name": "Shivaji (as a teenager, ~15)",
+      "type": "character",
+      "first_chapter": 7,
+      "visual_description": "Shivaji as a young man of about fifteen to seventeen, already looking like his iconic grown-up self rather than a boyish child: a handsome, sharp-featured young Maratha face with an aquiline nose, a THIN moustache and NO beard (clean cheeks and chin), keen confident eyes. He wears Shivaji's iconic light-coloured wound turban (pheta/jiretop) in this DISTINCTIVE SHAPE: the turban sits LOW and rounded across the forehead and brows at the FRONT, then sweeps UP and BACKWARD to a soft raised PEAK at the upper BACK of the head — it is NOT pointed at the front and NOT a symmetric round dome; the high point and bulk are toward the BACK. A thick ornamental TASSEL — a hanging bunch of cords and pearls — dangles DOWN from that rear peak, behind and beside his ear. The cloth is light cream/white with a fine woven, lightly quilted (cross-hatch) texture and a subtle gold edge; NOT a solid-gold metal cap or helmet. He also wears a large gold hoop earring, a fine white/cream angarkha tunic with a patterned sash (patka) worn diagonally across the chest, CLOSE-FITTING white churidar trousers (snug to the legs, like the Mavala foot-soldiers wear — NOT a loose baggy dhoti), simple shoes, and a curved talwar at his side. Charismatic, dignified, a born leader and king-in-the-making — the recognizable young-Shivaji look.",
+      "ref_prompt": "Character reference sheet: full-length standing figure of the roughly sixteen-year-old, regal confident bearing, wearing the white wound turban with its rear peak and side tassel exactly like the source photo, one hand near his talwar. NATURAL, REALISTIC BODY PROPORTIONS — the head sized appropriately for the body, NOT oversized. He carries only a sheathed talwar — NO shield. Plain soft pale background, full body clearly visible.",
+      "source_refs": [
+        "https://hel1.your-objectstorage.com/openclaw83/shivaji/_work/shivaji-young-source.png"
+      ],
+      "image": {
+        "s3_key": "shivaji/reference/characters/shivaji-teen.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/shivaji-teen.png",
+        "local": "reference/characters/shivaji-teen.png"
+      }
+    },
+    "tanaji-malusare": {
+      "slug": "tanaji-malusare",
+      "name": "Tanaji Malusare",
+      "type": "character",
+      "first_chapter": 7,
+      "visual_description": "Tanaji Malusare, Shivaji's closest and most famous Maval companion: a powerfully built, broad-shouldered young hill-warrior with a big open grin, a strong jaw and a bold thick moustache. Warm, blunt, fearless and utterly devoted. Dressed in the everyday Maval style — a white/cream tunic and dhoti with a bold red sash and the signature WIDE, FLAT, TWIN-PEAKED deep-maroon quilted Mavala pheta turban (worn low and broad with two soft corners, exactly like the Mavala foot-soldier's headgear in the reference image — NOT tall, NOT pointed), a curved talwar at his waist. A larger-than-life, friendly, strong presence — the muscle and the warm heart of the band.",
+      "ref_prompt": "Character reference sheet: full-length standing figure, powerful build, broad cheerful grin, plain soft pale background, full body clearly visible.",
+      "source_refs": [
+        "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/mavala-soldier.png"
+      ],
+      "source_mode": "costume",
+      "image": {
+        "s3_key": "shivaji/reference/characters/tanaji-malusare.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/tanaji-malusare.png",
+        "local": "reference/characters/tanaji-malusare.png"
+      }
+    },
+    "yesaji-kank": {
+      "slug": "yesaji-kank",
+      "name": "Yesaji Kank",
+      "type": "character",
+      "first_chapter": 7,
+      "visual_description": "Yesaji Kank, a Maval companion of Shivaji: a wiry, quick, quietly intense young hill-fighter and superb swordsman — lean and watchful, with level brows, sharp eyes and a short moustache. Dressed in everyday Maval style — white/cream tunic and dhoti, a red sash, and the signature WIDE, FLAT, TWIN-PEAKED deep-maroon quilted Mavala pheta turban (worn low and broad with two soft corners, exactly like the Mavala foot-soldier's headgear in the reference image — NOT tall, NOT pointed) — with a fine curved talwar he plainly knows how to use. Calm, alert and deadly-capable: the quiet, skilled one of the band.",
+      "ref_prompt": "Character reference sheet: full-length standing figure, alert watchful stance, one hand resting on his sword hilt, plain soft pale background, full body clearly visible.",
+      "source_refs": [
+        "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/mavala-soldier.png"
+      ],
+      "source_mode": "costume",
+      "image": {
+        "s3_key": "shivaji/reference/characters/yesaji-kank.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/yesaji-kank.png",
+        "local": "reference/characters/yesaji-kank.png"
+      }
+    },
+    "baji-pasalkar": {
+      "slug": "baji-pasalkar",
+      "name": "Baji Pasalkar",
+      "type": "character",
+      "first_chapter": 7,
+      "visual_description": "Baji Pasalkar, an older Maval deshmukh (village chief) and one of Shivaji's first senior supporters: a dignified, weathered man in his fifties with grey coming into his thick moustache and hair, a strong steady face and a leader's calm authority. Dressed a touch more substantially than the youths — a clean white angarkha robe with a good sash, a well-wound maroon/saffron Maratha pheta turban, a shawl over one shoulder, and a curved talwar. The respected senior man whose loyalty lends the young band weight.",
+      "ref_prompt": "Character reference sheet: full-length standing dignified figure, steady authoritative expression, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/baji-pasalkar.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/baji-pasalkar.png",
+        "local": "reference/characters/baji-pasalkar.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_comment": "Key illustrated events for Chapter 7 (verified: Shivaji builds his Maval band; specific meeting scenes framed representatively). 'anchor' is an EXACT substring of chapters/ch07.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER references are signed off.",
+  "chapter": 7,
+  "events": [
+    {
+      "slug": "ch07-ranging-hills",
+      "title": "Out in the Maval",
+      "anchor": "on a tough hill pony, with the dust of the high tracks on him",
+      "scene_prompt": "Teenage Shivaji (about fifteen) rides a tough little hill pony along a high ridge track through the folded Maval hills, a widening circle of lean, barefoot Maval hill-boys his own age loping and riding alongside him, easy and at home on the steep country. Dusty, free, spirited; sweeping green-brown valleys all around. A young leader and his growing band ranging the hills.",
+      "refs": [
+        "shivaji-teen",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch07/ch07-ranging-hills.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch07/ch07-ranging-hills.png",
+        "local": "reference/events/ch07/ch07-ranging-hills.png"
+      }
+    },
+    {
+      "slug": "ch07-eating-as-equals",
+      "title": "He ate what they ate",
+      "anchor": "He ate what they ate, sitting on the ground in their villages.",
+      "scene_prompt": "In a humble Maval village: teenage Shivaji sits cross-legged on the ground among ordinary hill people — including the powerfully built, grinning young Tanaji Malusare — sharing a simple meal of bhakri off leaf-plates, laughing and talking as an equal, not as a lord. Warm, intimate, full of easy brotherhood across rank. Village houses and hills behind.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "maval-village"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch07/ch07-eating-as-equals.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch07/ch07-eating-as-equals.png",
+        "local": "reference/events/ch07/ch07-eating-as-equals.png"
+      }
+    },
+    {
+      "slug": "ch07-the-band",
+      "title": "The boys of the Mavals",
+      "anchor": "Three of them, in time, would become names the whole country learned.",
+      "hero": true,
+      "scene_prompt": "A heroic group portrait of the young band in the Maval hills: teenage Shivaji at the centre, and with him his three key companions — the big, broad-shouldered, grinning Tanaji Malusare; the wiry, watchful swordsman Yesaji Kank; and the older, grey-moustached, dignified deshmukh Baji Pasalkar. Each a distinct face and build, all in Maval dress with talwars, standing together proud and loyal on a hilltop with the valleys spread below. Warm, rousing, brotherhood and shared purpose.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "baji-pasalkar",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch07/ch07-the-band.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch07/ch07-the-band.png",
+        "local": "reference/events/ch07/ch07-the-band.png"
+      }
+    },
+    {
+      "slug": "ch07-fireside",
+      "title": "Whose hills are these, really?",
+      "anchor": "Around the cooking fires at night, high in the hills",
+      "scene_prompt": "Night, high in the hills: teenage Shivaji and his Maval companions — including big Tanaji Malusare and watchful Yesaji Kank and other hill youths — sit close around a small cooking fire, faces lit warm orange against the dark, deep in low, serious talk that is turning from old grievances toward a daring new idea. Intimate, conspiratorial, full of quiet fire and dawning purpose. Starry hill night.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch07/ch07-fireside.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch07/ch07-fireside.png",
+        "local": "reference/events/ch07/ch07-fireside.png"
+      }
+    }
+  ]
+}
