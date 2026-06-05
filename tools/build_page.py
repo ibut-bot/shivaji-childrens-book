@@ -85,6 +85,25 @@ def ref_card(e: dict) -> str:
             f'<span class="refdesc">{html.escape(desc)}</span></figcaption></figure>')
 
 
+def chapter_title(stem: str) -> str:
+    md = (CHAPTERS / f"{stem}.md").read_text()
+    return next((t for k, t in blocks(md) if k == "h1"), stem)
+
+
+def nav_html(chap: str, position: str) -> str:
+    """Prev / Contents / Next navigation bar for a chapter page."""
+    chaps = sorted(p.stem for p in CHAPTERS.glob("ch*.md"))
+    i = chaps.index(chap)
+    prev = chaps[i - 1] if i > 0 else None
+    nxt = chaps[i + 1] if i < len(chaps) - 1 else None
+    left = (f'<a class="nav-prev" href="{prev}.html">&larr; {html.escape(chapter_title(prev))}</a>'
+            if prev else '<span class="nav-prev nav-disabled">&larr; Start</span>')
+    right = (f'<a class="nav-next" href="{nxt}.html">{html.escape(chapter_title(nxt))} &rarr;</a>'
+             if nxt else '<span class="nav-next nav-disabled">The End &rarr;</span>')
+    mid = '<a class="nav-toc" href="index.html">Contents</a>'
+    return f'<nav class="chapter-nav {position}">{left}{mid}{right}</nav>'
+
+
 def build_chapter(chap: str) -> Path:
     md = (CHAPTERS / f"{chap}.md").read_text()
     idx = json.loads(INDEX.read_text())
@@ -142,7 +161,8 @@ def build_chapter(chap: str) -> Path:
                    f'{"".join(sections)}</section>')
 
     page = PAGE_TMPL.format(title=html.escape(title), gallery=gallery,
-                            body="\n".join(body_parts))
+                            body="\n".join(body_parts),
+                            nav_top=nav_html(chap, "top"), nav_bottom=nav_html(chap, "bottom"))
     PAGES.mkdir(exist_ok=True)
     out = PAGES / f"{chap}.html"
     out.write_text(page)
@@ -197,12 +217,21 @@ PAGE_TMPL = """<!DOCTYPE html>
     letter-spacing:.08em; color:var(--accent); margin:.15rem 0; }}
   .refcard .refdesc {{ display:block; color:#6b5d49; }}
   .endnote-h {{ margin-top:2.5rem; color:var(--accent); border-top:2px solid var(--soft); padding-top:1.4rem; }}
-  a.back {{ display:inline-block; margin-bottom:1.5rem; color:var(--accent); text-decoration:none; font-size:.9rem; }}
+  .chapter-nav {{ display:flex; align-items:center; gap:.6rem; margin:1.4rem 0;
+    padding:.7rem 0; border-top:1px solid var(--soft); border-bottom:1px solid var(--soft); }}
+  .chapter-nav.top {{ margin-top:0; }}
+  .chapter-nav.bottom {{ margin-top:2.5rem; }}
+  .chapter-nav > * {{ flex:1; font-size:.92rem; color:var(--accent); text-decoration:none; }}
+  .chapter-nav a:hover {{ text-decoration:underline; }}
+  .chapter-nav .nav-prev {{ text-align:left; }}
+  .chapter-nav .nav-toc {{ text-align:center; font-weight:bold; }}
+  .chapter-nav .nav-next {{ text-align:right; }}
+  .chapter-nav .nav-disabled {{ color:#c9bca5; }}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <a class="back" href="index.html">&larr; Contents</a>
+  {nav_top}
   <header class="book">
     <div class="series">Chhatrapati Shivaji &middot; Volume 1 &middot; The Boy of Shivneri</div>
     <h1>{title}</h1>
@@ -211,6 +240,7 @@ PAGE_TMPL = """<!DOCTYPE html>
   <article>
   {body}
   </article>
+  {nav_bottom}
 </div>
 </body>
 </html>
