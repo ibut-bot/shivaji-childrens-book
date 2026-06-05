@@ -33,7 +33,7 @@ def bust(url: str) -> str:
 
 ROOT = Path(__file__).resolve().parent.parent
 CHAPTERS = ROOT / "chapters"
-PAGES = ROOT / "pages"
+PAGES = ROOT / "docs"  # served by GitHub Pages (source: master /docs)
 INDEX = ROOT / "reference" / "index.json"
 EVENTS_DIR = ROOT / "reference" / "events"
 

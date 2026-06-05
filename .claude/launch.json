@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "book", "runtimeExecutable": "python3", "runtimeArgs": ["-m", "http.server", "8753", "--directory", "pages"], "port": 8753 }
+    { "name": "book", "runtimeExecutable": "python3", "runtimeArgs": ["-m", "http.server", "8753", "--directory", "docs"], "port": 8753 }
   ]
 }
