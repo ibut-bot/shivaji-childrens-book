@@ -149,6 +149,8 @@ def cmd_events(args):
         ref_desc = " ".join(f"{entities[r]['name']}: {entities[r]['visual_description']}" for r in e["refs"])
         prompt = (f"{style} {e['scene_prompt']} "
                   f"Use the reference images for the costume design, named characters and places. "
+                  f"Each NAMED character must match their reference image's FACE, age and FACIAL HAIR exactly "
+                  f"(e.g. the teenage Shivaji always has his thin moustache and NO beard; do not change his features). "
                   f"IMPORTANT: when several soldiers or background people appear, give each one a DISTINCT "
                   f"face, age and build — vary their features; never repeat the same identical face. The "
                   f"Mavala reference defines the uniform/look, not a single repeated person. "
