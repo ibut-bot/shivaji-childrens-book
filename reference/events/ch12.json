@@ -1,0 +1,88 @@
+{
+  "_comment": "Key illustrated events for Chapter 12 — The Buried Treasure. Verified spine: after Torna, Shivaji built/renamed Rajgad (his ~26-year capital) and sent conciliatory 'loyal servant' letters to Bijapur to buy time. The buried-treasure tale comes from the chronicles (bakhars) — told as tradition, flagged in the endnote. Staging and dialogue are a representative dramatisation. 'anchor' is an EXACT substring of chapters/ch12.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 12,
+  "events": [
+    {
+      "slug": "ch12-repairing-walls",
+      "title": "They became builders",
+      "anchor": "So they became builders",
+      "scene_prompt": "Daytime on the captured fort of Torna: teenage Shivaji and his Maval men, sleeves rolled and clothes dusty, work hard at REBUILDING the fort's crumbling grey-stone ramparts — hauling blocks of stone up the slope, mixing and laying mortar, an old village mason directing a repair, others clearing a choked water tank. Shivaji works right alongside them, his fine clothes as filthy as anyone's, conferring with the mason over the wall. Honest, busy, communal mood — glory turned into hard labour. Natural daylight, the vast Sahyadri ranges beyond the walls. Shivaji has his thin moustache and no beard, matching his reference; vary the workers' faces, ages and builds.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "torna-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch12/ch12-repairing-walls.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch12/ch12-repairing-walls.png",
+        "local": "reference/events/ch12/ch12-repairing-walls.png"
+      }
+    },
+    {
+      "slug": "ch12-the-treasure",
+      "title": "The pick that struck gold",
+      "anchor": "the afternoon sun fell into it and came back gold",
+      "hero": true,
+      "scene_prompt": "The moment of astonishing discovery, by torch- and daylight at the foot of an old fort tower on Torna: a freshly dug pit in the dark earth has yielded ancient buried treasure — fat cracked-open clay pots spilling hundreds of small thick old GOLD coins (hons) that blaze warm in the light. The work-party of Maval men crowd round in disbelieving wonder, faces lit with amazement; the big Tanaji Malusare sitting back laughing in shock. Teenage Shivaji crouches over the gold, but his expression is thoughtful and calculating rather than greedy — already seeing what it can become. Excited, wondrous, a fairy-tale-treasure mood but grounded and real. Warm light on gold and amazed faces. Shivaji has his thin moustache and no beard, matching his reference; vary the onlookers' faces.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "treasure-hoard",
+        "torna-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch12/ch12-the-treasure.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch12/ch12-the-treasure.png",
+        "local": "reference/events/ch12/ch12-the-treasure.png"
+      }
+    },
+    {
+      "slug": "ch12-building-rajgad",
+      "title": "A fort built his way",
+      "anchor": "He would pour the buried gold into it",
+      "scene_prompt": "A great new hill-fort under construction: on the broad shoulders of the sprawling Sahyadri mountain that will become Rajgad, gangs of Maval workers and masons raise fresh strong grey-stone rampart-walls and a central citadel — wooden scaffolding against rising battlements, men hauling dressed stone, lime being mixed, a wall climbing course by course toward a high rocky summit citadel (balekilla). Teenage Shivaji stands among the works directing, gesturing up at the rising central citadel, proud and purposeful — a fort built new and whole, his own way. Busy, hopeful, monumental mood. Natural daylight, the fort matching the Rajgad reference, ranges beyond. Shivaji has his thin moustache and no beard, matching his reference; vary the workers.",
+      "refs": [
+        "shivaji-teen",
+        "rajgad-fort",
+        "mavala-soldier"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch12/ch12-building-rajgad.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch12/ch12-building-rajgad.png",
+        "local": "reference/events/ch12/ch12-building-rajgad.png"
+      }
+    },
+    {
+      "slug": "ch12-the-letter",
+      "title": "A very polite letter",
+      "anchor": "sat down and wrote the sultan's officers a very polite letter",
+      "scene_prompt": "Indoors by warm lamplight: teenage Shivaji sits writing (or has just finished writing) a careful letter on a sheet of paper at a low writing desk, dipping a reed pen, a faint knowing half-smile on his face — composing his cunning, exaggeratedly humble 'most loyal servant' message to the Bijapur court while in truth he is anything but. The big, honest Tanaji Malusare leans in over his shoulder reading it with a comically puzzled, screwed-up frown, not understanding the trick. Intimate, wry, clever mood — cleverness as a weapon. Warm lamp glow. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "lal-mahal"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch12/ch12-the-letter.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch12/ch12-the-letter.png",
+        "local": "reference/events/ch12/ch12-the-letter.png"
+      }
+    },
+    {
+      "slug": "ch12-rajgad-stronghold",
+      "title": "The King of Forts",
+      "anchor": "toward Rajgad, rising stone by stone out of the buried gold",
+      "scene_prompt": "Wide, proud establishing view at golden hour: the great finished new fortress of Rajgad standing mighty on its sprawling Sahyadri mountain — high central citadel and long fortified rampart-walls radiating along the plateau-spurs, matching the Rajgad reference exactly — with the rolling blue-grey Maval ranges stretching to the horizon. Small in the foreground, on a near ridge or a rampart, the lone figure of teenage Shivaji gazes across at his new stronghold, resolute and forward-looking. Majestic, hopeful, the seat of a dream taking solid form. Warm balanced golden-hour light (not an artificial uniform yellow wash). Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "rajgad-fort",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch12/ch12-rajgad-stronghold.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch12/ch12-rajgad-stronghold.png",
+        "local": "reference/events/ch12/ch12-rajgad-stronghold.png"
+      }
+    }
+  ]
+}

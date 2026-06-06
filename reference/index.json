@@ -411,6 +411,32 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/torna-fort.png",
         "local": "reference/locations/torna-fort.png"
       }
+    },
+    "rajgad-fort": {
+      "slug": "rajgad-fort",
+      "name": "Rajgad fort (the King of Forts)",
+      "type": "location",
+      "first_chapter": 12,
+      "visual_description": "Rajgad, 'the King of Forts' — Shivaji's own great new stronghold and long-time capital, built up from the hill once called Murumbdev in the Sahyadri mountains. A vast, sprawling grey-basalt mountain fortress: a high, rocky central citadel (the balekilla) crowning the summit, with long rugged stone rampart-walls, bastions and battlements radiating outward and snaking along three broad plateau-spurs (machis) that reach out from the central peak like the arms of a star. Strong arched stone gateways, watchtowers, cisterns and storehouses on the broad plateaus. Cliffs fall away on all sides; rolling green-brown Maval ranges stretch to the horizon. Grander, stronger and more deliberately engineered than old neglected Torna — a fort built new and whole, clearly cared for. Mighty and proud.",
+      "ref_prompt": "Wide establishing aerial-ish landscape view of the whole great sprawling hill-fort — a high central citadel with long fortified rampart-walls radiating along several mountain spurs — seen from across the ranges, no people, soft natural daylight with balanced colour.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/rajgad-fort.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/rajgad-fort.png",
+        "local": "reference/locations/rajgad-fort.png"
+      }
+    },
+    "treasure-hoard": {
+      "slug": "treasure-hoard",
+      "name": "The buried treasure hoard",
+      "type": "object",
+      "first_chapter": 12,
+      "visual_description": "An ancient buried treasure hoard, just dug from the earth: two or three fat round clay pots, their old wax-sealed mouths cracked open, spilling hundreds of small thick old gold coins (hons) that gleam warmly in the light. Crumbling dark soil clings to the pots; loose gold coins scatter on the freshly turned ground around them. The forgotten pay-chest of some long-ago war — humble earthenware full of astonishing wealth.",
+      "ref_prompt": "Object reference study of the broken clay treasure pots spilling old gold coins onto dark dug earth, three-quarter view, plain soft background, no people.",
+      "image": {
+        "s3_key": "shivaji/reference/objects/treasure-hoard.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/treasure-hoard.png",
+        "local": "reference/objects/treasure-hoard.png"
+      }
     }
   }
 }
