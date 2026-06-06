@@ -3,8 +3,8 @@
 Updated after every chapter. The agent reads this before drafting to keep voices, facts, and planted setups consistent.
 
 ## Status
-- Chapters drafted: **Ch.1–8** · **Ch.9 — The Oath at Raireshwar** (~1,117; emotional centre; oath = tradition, Swarajya intent documented).
-- Next up: **Chapter 10 — He Who Holds the Forts** (strategy-as-adventure: scouting Torna, the insight that hill forts — not open battle — win the Mavals; map/diagram territory). Ch.9 ends "It needs a fort… which one he meant to take first."
+- Chapters drafted: **Ch.1–9** · **Ch.10 — He Who Holds the Forts** (~1,540; strategy-as-adventure: scouting Torna, the forts-not-open-battle insight, the charcoal map; verified spine, scene representative).
+- Next up: **Chapter 11 — Torna** (SET PIECE: age 16, 1646, takes his first fort — the night climb, the gates, the triumph, then "now what?"). Ch.10 ends with the decision to take Torna: "All they had to do was climb a mountain in the dark and take it. How hard could that be?"
 - **Shivaji grown-up look LOCKED (ref `shivaji-teen`):** photo-conditioned via the author-supplied B&W young-Shivaji image (`shivaji/_work/shivaji-young-source.png`) through the edit endpoint. White wound turban that sits low at the brow and rises to a PEAK AT THE BACK with a TASSEL hanging from the rear peak; thin moustache, NO beard; large hoop earring; white angarkha + diagonal gold sash; close-fitting white CHURIDAR trousers (not a loose dhoti); talwar, NO shield; natural head-to-body proportions. **Condition all future adult Shivaji art on this ref.**
 - **Editorial policy (Ch.4+): verified events only; legends kept but labelled; short/cut chapters OK; supporting-but-unembellished dialogue.** (style-guide decision log + memory.)
 - Illustration pipeline live: reference art + event art generated per chapter (`tools/refgen.py`), web page built per chapter (`tools/build_page.py`). See `reference/index.json` and `reference/events/`.
@@ -34,7 +34,7 @@ Updated after every chapter. The agent reads this before drafting to keep voices
 - **Bijapur durbar (Adilshahi court)** *(locked Ch.8)* — opulent domed Deccan-Islamic audience hall: soaring scalloped arches, rich carpets, hanging lamps, incense, a fountain, a high canopied jewelled throne. The seat of sultanate splendour — and of the kneeling Shivaji rejects. (ref `bijapur-court`)
 - **Pune** *(locked Ch.5)* — Shivaji's father's town in the hills, wrecked in the wars; *(legend)* "cursed" with a donkey-drawn plough + iron bar. Deliberately rebuilt/resettled under Jijabai + Dadoji from the late 1630s. Ruined look = ref `pune-ruined`; reborn = green fields, busy lanes, market.
 - **Lal Mahal ("Red Mansion")** *(locked Ch.5)* — Shivaji's childhood home built in rebuilt Pune: warm red-brown two-storey Maratha mansion, carved wooden balconies/pillars, courtyard, veranda. His first real *home* (vs. a fort). (ref `lal-mahal`)
-- **Torna fort** —
+- **Torna fort** *(locked Ch.10)* — the **highest** fort in the Pune hill-country; old name **Prachandagad** ("the huge, fierce fort"). A vast tilted mountain of grey rock with a broken crown of wall along its top, clouds catching on it in the wet season. In Ch.10 (1646, pre-capture) it is shown **neglected**: sagging great gate, grass grown thick on the unwalked wall, a sun-faded near-white Bijapur flag, a garrison that should be ~200 down to ~40 bored men who never look outward. A small vulnerable **village sits at its foot** (the everyman stake; ties to "a roof, not a storm"). The "tired proud giant nobody is watching" — chosen as his first target. *(Will be taken in Ch.11; later he builds the new fort Rajgad on a nearby hill, Ch.12.)*
 - **Rajgad** —
 - **Javli / Konkan** —
 - **Raigad** (first sighted Ch. 19) —
@@ -68,6 +68,9 @@ Updated after every chapter. The agent reads this before drafting to keep voices
 - **Shahaji's "a noble bows… that is the price of doing any good in a world owned by other men"** (Ch.8) → the realist counter-voice to Swarajya; sharpens the cost when Shahaji is later arrested (Ch.15).
 - **The oath at Raireshwar** (Ch.9, ceremony = TRADITION-labelled; Swarajya intent = documented incl. "Swarajya is the will of God" from his letters) → the emotional + spiritual centre; the convergence of every earlier seed (roof-not-storm, the burned village, the band, the refusal to bow). Companions Tanaji/Yesaji/Baji bound in.
 - **"A vow is only a beautiful noise until you do something… it needs a fort"** (Ch.9 close) → turns the ideal into action; sets up Ch.10 (forts strategy) and Ch.11 (taking Torna).
+- **The forts-not-open-battle strategy + the charcoal map** (Ch.10, *verified strategy / representative scene*) → Shivaji's whole life's method, worked out at 16: never meet the heavy sultanate/Mughal cavalry in the open; take and hold hill forts one at a time, let the mountains and Maval terrain-knowledge fight for him; "we can lose a hundred times and still be here." Sets up the entire fort-campaign arc (Ch.11–13) and all of Vol 2–3. The **map/diagram** is the chapter's spot-art beat.
+- **"Whose roof it is, not whose flag is on the pole" / the village at Torna's foot** (Ch.10) → explicit callback to Jijabai's **"a king should be a roof, not a storm"** (Ch.1) and the burned village (Ch.3); reframes fort-taking as protection, not conquest. Should keep echoing as he takes each fort.
+- **"How hard could that be?" / climb a mountain in the dark and take it** (Ch.10 close) → ironic forward-pull straight into the Ch.11 Torna set piece.
 - **Golden plough & donkey-curse = LEGEND** (Ch.5) — illustrated/told as "the story goes," flagged in endnote. Not to be treated as fact. (refs `golden-plough`, `pune-ruined`.)
 - *(Note: `first-sword` reference is now ORPHANED — it was made for the cut sword-gift scene. Left in the library, unused. Delete if a clean library is preferred.)*
 

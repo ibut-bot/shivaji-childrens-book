@@ -1,0 +1,89 @@
+{
+  "_comment": "Key illustrated events for Chapter 10 — He Who Holds the Forts. The fort-and-terrain strategy and Torna as his first target are documented; the scouting-from-a-ridge and the charcoal-map fireside are a REPRESENTATIVE staging of that documented strategy (flagged in the chapter endnote). 'anchor' is an EXACT substring of chapters/ch10.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER references are signed off.",
+  "chapter": 10,
+  "events": [
+    {
+      "slug": "ch10-scouting",
+      "title": "Two boys pretending to be two rocks",
+      "anchor": "They lay flat on their bellies on the cold ridge",
+      "hero": true,
+      "scene_prompt": "Late afternoon in the Sahyadri mountains: teenage Shivaji and the big, broad Tanaji Malusare lie flat on their bellies on a cold rocky ridge, hidden among boulders and dry grass, watching intently across a deep valley at the huge grey hill-fort of Torna on the far mountain. Shivaji is alert and calculating, quietly counting; Tanaji beside him, patient but restless. A secret, watchful, adventurous mood — scouts spying out a target. Shivaji has his thin moustache and no beard, matching his reference. Keep a sense of great distance and scale between the two small hidden boys in the foreground and the vast fort across the valley.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "torna-fort",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch10/ch10-scouting.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch10/ch10-scouting.png",
+        "local": "reference/events/ch10/ch10-scouting.png"
+      }
+    },
+    {
+      "slug": "ch10-torna-tired",
+      "title": "The tired proud giant",
+      "anchor": "It stood across the valley from them, the highest fort",
+      "scene_prompt": "Wide establishing shot of Torna fort matching its reference — a vast tilted grey-basalt mountain crowned with long rugged stone ramparts and bastions snaking along the clifftops, the highest fort in the country. But shown NEGLECTED and sleepy: the great arched stone gateway sags, grass and weeds grow thick and untended along the top of the unwalked wall, and a single sun-faded near-white sultanate flag hangs limp from a pole. Far below at the foot of the mountain nestles a small, humble, vulnerable Maval hill-village. Soft natural daylight, balanced colour (NOT a golden or orange wash). A grand fortress gone to sleep under absent masters. No people in the foreground.",
+      "refs": [
+        "torna-fort",
+        "maval-village"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch10/ch10-torna-tired.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch10/ch10-torna-tired.png",
+        "local": "reference/events/ch10/ch10-torna-tired.png"
+      }
+    },
+    {
+      "slug": "ch10-the-map",
+      "title": "He drew the whole country",
+      "anchor": "He drew it that night by the fire",
+      "scene_prompt": "Night, high in the hills, around a small crackling cooking fire: teenage Shivaji crouches and sketches a map of the whole country onto a flat slab of pale stone with a piece of charcoal — wriggling lines for rivers, straight lines for roads, little squares for towns, and a scatter of hard dark dots for the hill-forts. His Maval companions — the big Tanaji Malusare, the wiry watchful Yesaji Kank and other hill youths — crowd round in the warm firelight, leaning in to look, fascinated. Intimate, conspiratorial, full of dawning excitement — a battle plan being born. Warm firelight on absorbed faces; each companion a distinct face and build. Shivaji has his thin moustache and no beard, matching his reference. (The charcoal map is the visual centrepiece — show it clearly.)",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch10/ch10-the-map.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch10/ch10-the-map.png",
+        "local": "reference/events/ch10/ch10-the-map.png"
+      }
+    },
+    {
+      "slug": "ch10-the-strategy",
+      "title": "Not where they're strong — where we are",
+      "anchor": "We can't fight them in the open",
+      "scene_prompt": "Firelit night in the hills: teenage Shivaji speaks earnestly to his ring of seated Maval companions, one arm sweeping out toward the dark surrounding mountains as he lays out the plan — fight in the high hills, not the open plain. To suggest the danger he is rejecting, show in the background or as an inset the contrast he means: a heavily-armoured Deccan sultanate cavalryman in mail-and-plate armour and spiked steel helmet on a big war-horse on flat ground — powerful and dangerous, the kind of enemy you do NOT meet head-on. The Maval lads are light, lean and white-clad by comparison. Charged, persuasive, strategic mood. Shivaji has his thin moustache and no beard, matching his reference; give each listening companion a distinct face and build.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "deccan-sultanate-soldier"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch10/ch10-the-strategy.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch10/ch10-the-strategy.png",
+        "local": "reference/events/ch10/ch10-the-strategy.png"
+      }
+    },
+    {
+      "slug": "ch10-which-one",
+      "title": "This one",
+      "anchor": "he put one finger, gently, on the tallest",
+      "scene_prompt": "Close, quiet, decisive moment by the firelight: teenage Shivaji's hand reaches down to the charcoal map sketched on the pale stone slab and rests one finger gently but deliberately on the tallest, largest of the dark fort-dots — choosing Torna. The wiry Yesaji Kank watches him intently from across the firelit map, understanding what it means. A small certain smile on Shivaji's face. Intimate, momentous, the spark of a great adventure. Warm firelight, focus on the pointing hand and the map. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "yesaji-kank",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch10/ch10-which-one.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch10/ch10-which-one.png",
+        "local": "reference/events/ch10/ch10-which-one.png"
+      }
+    }
+  ]
+}

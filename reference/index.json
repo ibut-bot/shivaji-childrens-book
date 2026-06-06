@@ -398,6 +398,19 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/raireshwar-temple.png",
         "local": "reference/locations/raireshwar-temple.png"
       }
+    },
+    "torna-fort": {
+      "slug": "torna-fort",
+      "name": "Torna fort (Prachandagad)",
+      "type": "location",
+      "first_chapter": 10,
+      "visual_description": "Torna fort, also called Prachandagad ('the huge, fierce fort') — the highest hill-fort in the Pune country of the Sahyadri mountains. A vast, steep, tilted mountain of grey basalt rock, its long ridges crowned with rugged dark-stone defensive ramparts and round bastions that snake for a great distance along the clifftops, with a few heavy arched stone gateways (darwaza) set into the climb and a broad flat plateau-top (machi) bearing a small old stone shrine. Sheer cliffs fall away on every side; clouds catch and tear on its summit in the wet season. Immense, ancient and forbidding — a giant grey stronghold dwarfing the rolling green-brown Maval valleys far below.",
+      "ref_prompt": "Wide establishing landscape view of the whole towering grey hill-fort and its long ridge-top ramparts seen across a deep valley, no people, soft natural daylight with balanced colour.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/torna-fort.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/torna-fort.png",
+        "local": "reference/locations/torna-fort.png"
+      }
     }
   }
 }
