@@ -385,6 +385,19 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/bijapur-court.png",
         "local": "reference/locations/bijapur-court.png"
       }
+    },
+    "raireshwar-temple": {
+      "slug": "raireshwar-temple",
+      "name": "The Raireshwar temple",
+      "type": "location",
+      "first_chapter": 9,
+      "visual_description": "The ancient Raireshwar Shiva temple, high on its windswept Sahyadri plateau: a small, weathered, plain dark-stone temple in the old Hemadpanthi style — strong square stone pillars, simple carvings, a modest stone shikhara (tower) — standing alone under a vast mountain sky. Inside, in the dark, sits a simple stone Shiva lingam on a low altar, lit by a single small oil lamp; no gold and no ornament — just ancient stone and a small flame. Austere, sacred, timeless — the deliberate opposite of a golden sultanate court.",
+      "ref_prompt": "Reference view of the small ancient stone Shiva temple interior — square Hemadpanthi pillars and a simple stone Shiva lingam lit by a single oil lamp in the dark — with a glimpse of the high plateau and mountain sky beyond the doorway, no people.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/raireshwar-temple.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/raireshwar-temple.png",
+        "local": "reference/locations/raireshwar-temple.png"
+      }
     }
   }
 }

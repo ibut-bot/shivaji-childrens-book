@@ -1,0 +1,91 @@
+{
+  "_comment": "Key illustrated events for Chapter 9 — the oath at Raireshwar. The oath ceremony itself is cherished TRADITION (labelled); Shivaji's documented commitment to Swarajya in these years anchors it. 'anchor' is an EXACT substring of chapters/ch09.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER references are signed off.",
+  "chapter": 9,
+  "events": [
+    {
+      "slug": "ch09-the-climb",
+      "title": "Before dawn",
+      "anchor": "They climbed to the temple before dawn",
+      "scene_prompt": "Before dawn in the Sahyadri mountains: a small band of young men — teenage Shivaji and his closest Maval companions (the big Tanaji Malusare, the wiry Yesaji Kank, other hill youths) — climb a steep mountain path toward a high temple, breath smoking in the cold, the black hills just beginning to brighten against a pre-dawn sky. Hushed, purposeful, secret. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch09/ch09-the-climb.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch09/ch09-the-climb.png",
+        "local": "reference/events/ch09/ch09-the-climb.png"
+      }
+    },
+    {
+      "slug": "ch09-the-temple",
+      "title": "The temple on the plateau",
+      "anchor": "stood on its high plateau the way it had stood for centuries",
+      "scene_prompt": "The ancient Raireshwar Shiva temple alone on its vast windswept high plateau in the Sahyadri mountains at first light — a small, weathered, plain dark-stone Hemadpanthi temple with square stone pillars and a modest stone shikhara, dwarfed by the huge mountain sky and the rolling ranges beyond. Austere, sacred, timeless; the deliberate opposite of a golden court.",
+      "refs": [
+        "raireshwar-temple",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch09/ch09-the-temple.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch09/ch09-the-temple.png",
+        "local": "reference/events/ch09/ch09-the-temple.png"
+      }
+    },
+    {
+      "slug": "ch09-the-vow",
+      "title": "Tonight we stop talking around it",
+      "anchor": "The lamp threw their shadows huge on the walls",
+      "scene_prompt": "Inside the dark stone Raireshwar temple, lit by a single small oil lamp: teenage Shivaji stands and speaks quietly but with fierce resolve to his small circle of Maval companions (Tanaji, Yesaji and others), their shadows thrown huge on the ancient stone walls behind them, the simple stone Shiva lingam nearby. Intense, intimate, charged with purpose. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "raireshwar-temple"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch09/ch09-the-vow.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch09/ch09-the-vow.png",
+        "local": "reference/events/ch09/ch09-the-vow.png"
+      }
+    },
+    {
+      "slug": "ch09-the-oath",
+      "title": "The oath of Swarajya (the story goes)",
+      "anchor": "his own blood, a few drops of it, pressed to the cold stone",
+      "hero": true,
+      "scene_prompt": "The cherished legend, told reverently: in the lamplit dark of the ancient Raireshwar Shiva temple, teenage Shivaji kneels before the simple stone Shiva lingam and makes his solemn vow to win Swarajya, sealing it by pressing a few drops of his own blood to the cold stone, his devoted Maval companions gathered close behind him in the flickering light, moved and resolute. Sacred, emotional, the spiritual heart of the whole story. Handled gently — solemn, not gory. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "raireshwar-temple",
+        "tanaji-malusare",
+        "yesaji-kank"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch09/ch09-the-oath.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch09/ch09-the-oath.png",
+        "local": "reference/events/ch09/ch09-the-oath.png"
+      }
+    },
+    {
+      "slug": "ch09-dawn-out",
+      "title": "The hills turning gold",
+      "anchor": "the sun was coming up over the edge of the world",
+      "scene_prompt": "Sunrise: teenage Shivaji and his Maval companions (Tanaji, Yesaji, the older deshmukh Baji Pasalkar, and others) step out of the small stone temple onto the high plateau as the sun rises over the edge of the world and the endless Sahyadri hills turn gold. Quiet, uplifted, transformed — a vow freshly sworn, an impossible hope made real. Warm dawn light, vast hopeful horizon.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "baji-pasalkar",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch09/ch09-dawn-out.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch09/ch09-dawn-out.png",
+        "local": "reference/events/ch09/ch09-dawn-out.png"
+      }
+    }
+  ]
+}
