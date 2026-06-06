@@ -1,0 +1,84 @@
+{
+  "_comment": "Key illustrated events for Chapter 8 (verified Adilshahi court splendour + clearly-labelled legend of the refusal to bow). 'anchor' is an EXACT substring of chapters/ch08.md. 'refs' are entity slugs from reference/index.json. 'image' filled by tools/refgen.py AFTER references are signed off.",
+  "chapter": 8,
+  "events": [
+    {
+      "slug": "ch08-arrival-city",
+      "title": "The city of Bijapur",
+      "anchor": "Great domes floated above the rooftops.",
+      "scene_prompt": "Teenage Shivaji arrives at the magnificent 17th-century Deccan city of Bijapur — a skyline of great domes and minarets floating above crowded rooftops, busy bazaars full of silk and spice and silver, tall gateways and fine-coated soldiers. The hill-bred boy takes in the dazzling capital, awed but quietly watchful. Grand, bustling, opulent.",
+      "refs": [
+        "shivaji-teen"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch08/ch08-arrival-city.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch08/ch08-arrival-city.png",
+        "local": "reference/events/ch08/ch08-arrival-city.png"
+      }
+    },
+    {
+      "slug": "ch08-the-durbar",
+      "title": "The great audience hall",
+      "anchor": "The hall was a cavern of colour and perfume.",
+      "scene_prompt": "The opulent durbar (audience hall) of the Adilshahi court at Bijapur in full splendour: a vast domed Deccan-Islamic hall with soaring scalloped arches, rich carpets, hanging lamps and incense haze, hundreds of nobles standing in ranks in cloth-of-gold and jewels, and at the far end the Sultan of Bijapur seated high on a canopied jewelled throne. Magnificent, ceremonial, overwhelming wealth.",
+      "refs": [
+        "bijapur-court",
+        "adil-shah"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch08/ch08-the-durbar.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch08/ch08-the-durbar.png",
+        "local": "reference/events/ch08/ch08-the-durbar.png"
+      }
+    },
+    {
+      "slug": "ch08-shahaji-bows",
+      "title": "His father bows",
+      "anchor": "bow himself low to the floor before the Sultan",
+      "scene_prompt": "In the Bijapur durbar: Shahaji — the proud bearded Maratha warrior-noble in his plumed turban and fine robe — bows low to the floor in the full court obeisance before the Sultan of Bijapur seated on his high throne. A few steps away, teenage Shivaji watches his father kneel, his own young face going cold and still with a dawning, troubled understanding. Opulent hall, charged moment.",
+      "refs": [
+        "shahaji",
+        "adil-shah",
+        "bijapur-court",
+        "shivaji-teen"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch08/ch08-shahaji-bows.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch08/ch08-shahaji-bows.png",
+        "local": "reference/events/ch08/ch08-shahaji-bows.png"
+      }
+    },
+    {
+      "slug": "ch08-refusal",
+      "title": "I will not crawl for you",
+      "anchor": "he straightened up and looked at the man on the throne with steady, level, unfrightened eyes",
+      "hero": true,
+      "scene_prompt": "The famous legend, as a powerful story-book scene: in the glittering Bijapur durbar, teenage Shivaji stands straight and unbowed before the Sultan of Bijapur on his high canopied throne, giving only the smallest stiff nod, meeting the Sultan's gaze with steady, level, unfrightened eyes — refusing the deep court obeisance that everyone else performs. Calm defiance, quiet dignity, the whole opulent court watching. The pivotal moment of the chapter.",
+      "refs": [
+        "shivaji-teen",
+        "adil-shah",
+        "bijapur-court"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch08/ch08-refusal.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch08/ch08-refusal.png",
+        "local": "reference/events/ch08/ch08-refusal.png"
+      }
+    },
+    {
+      "slug": "ch08-road-home",
+      "title": "The long road home",
+      "anchor": "He went back to his hills not long after",
+      "scene_prompt": "Teenage Shivaji rides home alone-ish through the open Maval hill-country, quiet and thoughtful, turning over everything he saw at the glittering kneeling court — the idea of Swarajya (self-rule) beginning to harden in him. Wide, contemplative, the free brown-green hills a deliberate contrast to the gilded hall he has left behind. Late golden light.",
+      "refs": [
+        "shivaji-teen",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch08/ch08-road-home.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch08/ch08-road-home.png",
+        "local": "reference/events/ch08/ch08-road-home.png"
+      }
+    }
+  ]
+}

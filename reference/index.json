@@ -359,6 +359,32 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/baji-pasalkar.png",
         "local": "reference/characters/baji-pasalkar.png"
       }
+    },
+    "adil-shah": {
+      "slug": "adil-shah",
+      "name": "The Sultan of Bijapur (Mohammed Adil Shah)",
+      "type": "character",
+      "first_chapter": 8,
+      "visual_description": "Mohammed Adil Shah, Sultan of Bijapur (the Adilshahi ruler) — depicted with DIGNITY as a refined Deccan sultan, never a caricature. A plump, composed man with a neat dark beard and calm heavy-lidded eyes, and a faint golden halo (nimbus) behind his head in the Deccani portrait tradition. He wears opulent 17th-century Deccani court finery: a fine flowing white/cream muslin jama (robe) over a jewelled sash (patka), strings of large pearls and emeralds, gold armbands and rings, and a jewelled turban topped with a sarpech (turban-jewel) and an aigrette plume. He often holds a single flower (a floral sprig), a sign of cultured refinement. Wealthy, serene and grand — the embodiment of sultanate splendour.",
+      "ref_prompt": "Character reference sheet: full-length standing dignified figure in opulent Deccani court robes holding a single flower, a faint golden halo behind the head, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/adil-shah.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/adil-shah.png",
+        "local": "reference/characters/adil-shah.png"
+      }
+    },
+    "bijapur-court": {
+      "slug": "bijapur-court",
+      "name": "The Bijapur durbar (Adilshahi court)",
+      "type": "location",
+      "first_chapter": 8,
+      "visual_description": "The durbar (great audience hall) of the Adilshahi court at Bijapur: a vast, opulent Deccan-Islamic hall with soaring scalloped arches, a great dome, intricate tilework and frescoes, rich patterned carpets, hanging lamps and a haze of incense, a playing fountain, and at the far end a high canopied jewelled throne on a raised dais. Splendid, perfumed and ceremonial — the seat of immense sultanate wealth.",
+      "ref_prompt": "Wide establishing interior view of the opulent domed Deccan-Islamic royal audience hall — soaring arches, rich carpets, hanging lamps, and a high canopied throne at the far end, no people, rich warm light.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/bijapur-court.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/bijapur-court.png",
+        "local": "reference/locations/bijapur-court.png"
+      }
     }
   }
 }
