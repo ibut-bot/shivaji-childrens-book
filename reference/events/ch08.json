@@ -33,9 +33,9 @@
     },
     {
       "slug": "ch08-shahaji-bows",
-      "title": "His father bows",
+      "title": "His father bows (the story goes)",
       "anchor": "bow himself low to the floor before the Sultan",
-      "scene_prompt": "In the Bijapur durbar: Shahaji — the proud bearded Maratha warrior-noble in his plumed turban and fine robe — bows low to the floor in the full court obeisance before the Sultan of Bijapur seated on his high throne. A few steps away, teenage Shivaji watches his father kneel, his own young face going cold and still with a dawning, troubled understanding. Shivaji has his characteristic THIN MOUSTACHE and NO beard, exactly matching his reference. Opulent hall, charged moment.",
+      "scene_prompt": "In the Bijapur durbar: the Sultan of Bijapur sits high on his canopied jewelled throne on a raised dais. DIRECTLY BEFORE the throne, facing it, Shahaji — the proud bearded Maratha warrior-noble in his plumed turban and fine robe — kneels and bows low to the floor in the full court obeisance, his head and outstretched hands pointed TOWARD the Sultan and the throne (he bows in the direction of the throne, NOT away from it). A few steps to one side stands teenage Shivaji, watching his father kneel, his face cold and still with troubled understanding; Shivaji has his characteristic THIN MOUSTACHE and NO beard, exactly matching his reference. Opulent hall, charged moment.",
       "refs": [
         "shahaji",
         "adil-shah",
@@ -50,7 +50,7 @@
     },
     {
       "slug": "ch08-refusal",
-      "title": "I will not crawl for you",
+      "title": "The refusal to bow (the story goes)",
       "anchor": "he straightened up and looked at the man on the throne with steady, level, unfrightened eyes",
       "hero": true,
       "scene_prompt": "The famous legend, as a powerful story-book scene: in the glittering Bijapur durbar, teenage Shivaji stands straight and unbowed before the Sultan of Bijapur on his high canopied throne, giving only the smallest stiff nod, meeting the Sultan's gaze with steady, level, unfrightened eyes — refusing the deep court obeisance that everyone else performs. Calm defiance, quiet dignity, the whole opulent court watching. The pivotal moment of the chapter.",
