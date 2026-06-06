@@ -1,0 +1,91 @@
+{
+  "_comment": "Key illustrated events for Chapter 11 — Torna (set piece). Documented spine: Torna was Shivaji's first fort, taken ~1646 at ~16, with little/no fighting. The night-climb staging and dialogue are a REPRESENTATIVE dramatisation true to that near-bloodless capture and to Maval mountain-craft (flagged in the endnote). Violence kept off-page per sensitivity rules: the garrison YIELDS, the sentry is silenced bloodlessly. 'anchor' is an EXACT substring of chapters/ch11.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 11,
+  "events": [
+    {
+      "slug": "ch11-the-climb",
+      "title": "Up the unwatched side, in the dark",
+      "anchor": "the hill boys could climb",
+      "scene_prompt": "Tense night-time scene under a starry sky: teenage Shivaji and a string of his lean barefoot Maval companions (including the big, broad Tanaji Malusare) climb a steep, dark rock face — the unwatched northern shoulder of the towering grey hill-fort of Torna, whose ramparts loom high above them against the stars. They move silently and surely, finding holds by feel, passing a hand back to steady the next man, swords slung at their backs. Vertiginous sense of great height and the valley floor far below. Cool moonlit/starlit blue palette, dramatic and secret and dangerous. Shivaji has his thin moustache and no beard, matching his reference; each climber a distinct face and build.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "torna-fort",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch11/ch11-the-climb.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch11/ch11-the-climb.png",
+        "local": "reference/events/ch11/ch11-the-climb.png"
+      }
+    },
+    {
+      "slug": "ch11-over-the-wall",
+      "title": "The sentry and the falling stone",
+      "anchor": "a loose lump of rock turned under a boy's foot",
+      "hero": true,
+      "scene_prompt": "Heart-stopping moment on top of Torna's dark fort wall at night: the Maval boys are coming silently over the low rampart when a dislodged stone clatters down — and a lone sentry of the fort garrison turns, alarmed, peering into the dark and raising his spear. Behind the sentry, the wiry, quick Yesaji Kank has already slipped over the wall and reaches to silence and disarm him from behind — a hand toward the man's mouth, lifting the spear gently away — bloodless and controlled, NO violence or gore shown. Shivaji is frozen flat against the cold stone of the wall nearby, heart in his throat, watching. Extreme tension, cool night palette, a single distant watch-fire glowing over by the main gate. The sentry is an ordinary, frightened man, not a monster. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "yesaji-kank",
+        "deccan-sultanate-soldier",
+        "torna-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch11/ch11-over-the-wall.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch11/ch11-over-the-wall.png",
+        "local": "reference/events/ch11/ch11-over-the-wall.png"
+      }
+    },
+    {
+      "slug": "ch11-garrison-yields",
+      "title": "Take it down",
+      "anchor": "stood huddled and disarmed",
+      "scene_prompt": "Grey pre-dawn light inside the captured fort of Torna: the small fort garrison — a few dozen ordinary sultanate soldiers, NOT heavily armoured, weapons taken from them and set aside — stand huddled and disarmed but UNHARMED, watching the teenage boy who has just taken their fort. Shivaji stands calm and commanding among his Maval companions (the big Tanaji nearby), not looking at the prisoners but up toward the fort's gate flagpole where the faded sultanate colours still hang, his hand raised in a quiet order to bring them down. Dignified, tense-but-merciful mood — a victory without slaughter. No blood, no bodies. Cool dawn light. Shivaji has his thin moustache and no beard, matching his reference; vary the soldiers' faces and ages.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "deccan-sultanate-soldier",
+        "torna-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch11/ch11-garrison-yields.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch11/ch11-garrison-yields.png",
+        "local": "reference/events/ch11/ch11-garrison-yields.png"
+      }
+    },
+    {
+      "slug": "ch11-the-flag",
+      "title": "His own flag, on his own fort",
+      "anchor": "Shivaji stood on the summit of Torna",
+      "scene_prompt": "Triumphant sunrise on the highest point of Torna fort: teenage Shivaji stands on the windswept summit as the sun rises over endless blue-grey Sahyadri ranges rolling away to the horizon, hill after hill turning gold. Above the fort gate behind/beside him a plain bright NEW banner (saffron/orange, no emblem or text) snaps and streams in the strong wind on its pole. The big Tanaji Malusare stands beside him grinning broadly; the quiet watchful Yesaji Kank on the other side. Wind tugging at Shivaji's white turban. Uplifted, victorious, the dawn of a great adventure — but Shivaji's expression is thoughtful and resolved as much as joyful. Warm natural sunrise light, vast hopeful horizon. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "torna-fort",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch11/ch11-the-flag.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch11/ch11-the-flag.png",
+        "local": "reference/events/ch11/ch11-the-flag.png"
+      }
+    },
+    {
+      "slug": "ch11-child-looks-up",
+      "title": "A strange new flag",
+      "anchor": "a thin child carrying a pot of water",
+      "scene_prompt": "Quiet, tender closing image at full sunrise: down at the foot of the mountain, in the lane of the small humble Maval hill-village, a thin barefoot child carrying a clay water-pot has stopped and stands looking UP and far away at the great fort of Torna high above — where a strange bright NEW banner now flies over the gate for the first time in the child's whole life. Seen from behind/beside the small child, the towering fort and its new flag tiny but clear in the distance above. Hopeful, gentle, full of quiet meaning — protection arriving. Warm morning light, balanced natural colour. The fort matches its reference.",
+      "refs": [
+        "maval-village",
+        "torna-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch11/ch11-child-looks-up.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch11/ch11-child-looks-up.png",
+        "local": "reference/events/ch11/ch11-child-looks-up.png"
+      }
+    }
+  ]
+}
