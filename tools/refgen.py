@@ -29,7 +29,8 @@ EVENTS_DIR = ROOT / "reference" / "events"
 CHAPTERS_DIR = ROOT / "chapters"
 
 SUFFIX = (" No text, no words, no letters and no captions anywhere in the image. "
-          "A single cohesive illustration.")
+          "A single cohesive illustration. Use natural, balanced colour and lighting; "
+          "AVOID an artificial uniform yellow or golden sheen / glow washed over the whole image.")
 MAX_WORKERS = 4
 
 
