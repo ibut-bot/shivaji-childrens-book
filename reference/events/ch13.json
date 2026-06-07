@@ -1,0 +1,88 @@
+{
+  "_comment": "Key illustrated events for Chapter 13 — Three Forts by Wit. Verified spine: in the later 1640s Shivaji rapidly gained forts around Pune (Kondhana, Purandar, Chakan) largely by negotiation/persuasion/payment, not battle — Kondhana by winning over killedar Siddi Amber, Purandar via the keeper's sons' quarrel. Events are COMPRESSED across years (Purandar's decisive takeover was really ~1656) and dialogue is dramatised, flagged in the endnote. Siddi Amber (a Habshi/Siddi commander) is depicted with full dignity per sensitivity rules. 'anchor' is an EXACT substring of chapters/ch13.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 13,
+  "events": [
+    {
+      "slug": "ch13-walk-up",
+      "title": "We're going visiting",
+      "anchor": "We're going visiting",
+      "scene_prompt": "Bright broad daylight: teenage Shivaji rides a tough hill pony calmly and cheerfully up a winding cart-track toward the great formidable hill-fort of Kondhana looming ahead, with only the big Tanaji Malusare and a couple of companions alongside and NO army — an audacious, almost absurd peaceful approach to a mighty fortress. Tanaji looks half-eager half-baffled. Confident, wry, adventurous mood. The fort matches the Kondhana reference. Natural daylight, the Sahyadri ranges around. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "kondhana-fort",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch13/ch13-walk-up.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch13/ch13-walk-up.png",
+        "local": "reference/events/ch13/ch13-walk-up.png"
+      }
+    },
+    {
+      "slug": "ch13-the-tea",
+      "title": "The key on the table",
+      "anchor": "set it on the table between them",
+      "hero": true,
+      "scene_prompt": "Inside the stone gatehouse of Kondhana fort, a quiet, charged, intimate scene: teenage Shivaji sits across a low table from Siddi Amber, the elderly Habshi (African-descent) Adilshahi killedar — a dignified, grizzled, war-weary old commander. Two cups of tea sit between them. The old Siddi has just taken the heavy iron fort key off his belt and is setting it down on the table, a moment of momentous peaceful surrender, his weathered face thoughtful and resigned-but-respectful. Shivaji watches calmly, earnest and gracious, not gloating. Warm light through the gatehouse. Mutual respect between a strange young conqueror and an honourable old soldier. NO violence. Siddi Amber depicted with full dignity, never a caricature. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "siddi-amber",
+        "kondhana-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch13/ch13-the-tea.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch13/ch13-the-tea.png",
+        "local": "reference/events/ch13/ch13-the-tea.png"
+      }
+    },
+    {
+      "slug": "ch13-kondhana-won",
+      "title": "Whole, undamaged, a new flag",
+      "anchor": "whole and undamaged and flying a new flag",
+      "scene_prompt": "Daytime: teenage Shivaji and the big Tanaji Malusare ride away down the track, both turning in the saddle to look back at the great fort of Kondhana standing whole and undamaged on its plateau behind them, a bright NEW saffron/orange banner (no emblem or text) now flying from its highest tower — a fort won without a fight or a scratch. Tanaji marvelling, Shivaji quietly satisfied. Uplifted, clever-victory mood. The fort matches the Kondhana reference. Natural daylight, ranges beyond. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "kondhana-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch13/ch13-kondhana-won.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch13/ch13-kondhana-won.png",
+        "local": "reference/events/ch13/ch13-kondhana-won.png"
+      }
+    },
+    {
+      "slug": "ch13-purandar-quarrel",
+      "title": "Three brothers agreed on me",
+      "anchor": "walked Shivaji",
+      "scene_prompt": "Daytime inside the broad walled terrace of the mighty twin-fort of Purandar (high upper citadel rising behind a lower bastioned terrace, matching the Purandar reference): teenage Shivaji stands calm, gracious and reasonable as a mediator among a cluster of several quarrelling Maratha brothers — agitated, gesturing, distrustful young deshmukh-class men in Maratha dress arguing amongst themselves over the fort — while Shivaji, the one man they can all somehow trust, quietly turns the dispute to his own advantage. Tense-but-civil, shrewd, slightly ironic mood; no weapons drawn, no violence. Give each brother a distinct face, age and build. The fort matches the Purandar reference. Shivaji has his thin moustache and no beard, matching his reference.",
+      "refs": [
+        "shivaji-teen",
+        "purandar-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch13/ch13-purandar-quarrel.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch13/ch13-purandar-quarrel.png",
+        "local": "reference/events/ch13/ch13-purandar-quarrel.png"
+      }
+    },
+    {
+      "slug": "ch13-not-a-storm",
+      "title": "We are not going to be a storm",
+      "anchor": "We are not going to be a storm",
+      "scene_prompt": "Firelit night in the hills: teenage Shivaji sits with his closest Maval companions (the big Tanaji Malusare, the wiry watchful Yesaji Kank and others) around a fire, speaking earnestly and gravely as he warns them not to grow drunk on easy victories — to always choose the bloodless way first. Thoughtful, serious, intimate mood; this is a moral lesson, not a celebration. Warm firelight on attentive faces, each companion distinct. The vast dark Sahyadri ranges beyond. Shivaji has his thin moustache and no beard, matching his reference; his expression resolute and a little sombre.",
+      "refs": [
+        "shivaji-teen",
+        "tanaji-malusare",
+        "yesaji-kank",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch13/ch13-not-a-storm.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch13/ch13-not-a-storm.png",
+        "local": "reference/events/ch13/ch13-not-a-storm.png"
+      }
+    }
+  ]
+}

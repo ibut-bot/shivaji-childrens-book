@@ -437,6 +437,45 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/treasure-hoard.png",
         "local": "reference/objects/treasure-hoard.png"
       }
+    },
+    "kondhana-fort": {
+      "slug": "kondhana-fort",
+      "name": "Kondhana fort (later Sinhagad)",
+      "type": "location",
+      "first_chapter": 13,
+      "visual_description": "Kondhana, a mighty and well-kept hill-fort of the Sahyadri mountains southwest of Pune (later renamed Sinhagad). A high three-pronged flat-topped plateau ringed by sheer black-basalt cliffs that rise tens of metres to strong, continuous grey-stone ramparts studded with regularly spaced square watchtowers and bastions. Two great fortified gateways (darwaza) of thick iron-banded wooden doors set in twisting, dog-legged stone passages guard the approaches. Broad green grassy plateau on top with stone cisterns and old buildings. Unlike neglected Torna, this fort is strong, intact and formidable — a place you could never storm cheaply. Green and misty in the monsoon, commanding immense views of the ranges.",
+      "ref_prompt": "Wide establishing landscape view of the whole great flat-topped cliff-girt hill-fort and its long ramparts and towers seen across the ranges, no people, soft natural daylight with balanced colour.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/kondhana-fort.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/kondhana-fort.png",
+        "local": "reference/locations/kondhana-fort.png"
+      }
+    },
+    "purandar-fort": {
+      "slug": "purandar-fort",
+      "name": "Purandar fort",
+      "type": "location",
+      "first_chapter": 13,
+      "visual_description": "Purandar, a mighty double-crowned twin-fort of the Sahyadri mountains southeast of Pune. It rises in two great storeys: a high upper citadel (the balekilla) crowning the summit, standing above a broad lower walled terrace-plateau (the machi) that is reinforced with several large round bastions and an imposing main gateway flanked by two towers. A smaller separate sister-fort, Vajragad, stands guard on a neighbouring spur to the east, linked by a saddle. Sheer grey-and-ochre basalt slopes and tiered stone ramparts; sweeping panoramic views over the surrounding country. Strong, layered and proud — a fortress in two levels.",
+      "ref_prompt": "Wide establishing landscape view of the great two-tiered twin hill-fort — high upper citadel above a broad bastioned lower terrace, with the smaller sister-fort on a neighbouring spur — seen across the ranges, no people, soft natural daylight with balanced colour.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/purandar-fort.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/purandar-fort.png",
+        "local": "reference/locations/purandar-fort.png"
+      }
+    },
+    "siddi-amber": {
+      "slug": "siddi-amber",
+      "name": "Siddi Amber (killedar of Kondhana)",
+      "type": "character",
+      "first_chapter": 13,
+      "visual_description": "Siddi Amber, the elderly Adilshahi (Bijapur) commander and killedar of Kondhana fort — a Habshi (Siddi), a Deccan soldier of African descent, depicted with full dignity and gravitas, never a caricature. An older man of perhaps sixty with dark brown skin, a short grizzled grey beard and moustache, a weathered, intelligent, dryly humorous face and the straight back of a lifelong professional soldier. He wears the dress of a senior 17th-century Deccan sultanate officer: a good-quality long coat or jama tied with a sash (kamarband), a neatly wound turban, a shawl, and a sheathed curved talwar at his side. Calm, shrewd, war-weary and self-possessed — a reasonable veteran, not a villain.",
+      "ref_prompt": "Character reference sheet: full-length standing dignified figure of the elderly Siddi commander, calm shrewd weathered expression, one hand resting near his sheathed talwar, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/siddi-amber.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/siddi-amber.png",
+        "local": "reference/characters/siddi-amber.png"
+      }
     }
   }
 }
