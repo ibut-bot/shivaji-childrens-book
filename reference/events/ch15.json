@@ -1,0 +1,89 @@
+{
+  "_comment": "Key illustrated events for Chapter 15 — The Trap (dramatic peak of Act III). Verified spine: July 1648 Shahaji arrested via treachery of Maratha sardar Baji Ghorpade and held in Bijapur under threat; Bijapur sends gen. Fateh Khan; Shivaji wins his first true battle around Purandar/Belsar (1648) using hill-warfare; Baji Pasalkar remembered as dying in these early fights. Violence kept OFF the page (stakes + grief, no gore) per sensitivity rules; antagonists are individuals, never a people/faith. Shivaji is now the BEARDED young-man ref with the chandrakor bindi. 'anchor' is an EXACT substring of chapters/ch15.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 15,
+  "events": [
+    {
+      "slug": "ch15-the-news",
+      "title": "They've taken your father",
+      "anchor": "the whole room went very still",
+      "scene_prompt": "A tense, emotional interior at the Lal Mahal / Rajgad: an exhausted messenger, travel-stained and barely able to stand, has just delivered terrible news to Shivaji (now a bearded young man of ~18) and his mother Jijabai. Shivaji stands rigid, stricken and stunned, struggling to master a surge of grief and fury; Jijabai stands very straight and composed beside him, steady even now, her sorrow held behind unflinching eyes. Charged, hushed, the floor dropping out of the moment. Warm indoor light. Shivaji has his developing Van Dyke beard with sideburns and his distinctive white turban (rear peak with the tassel hanging DOWN at the back) and a small red upward-crescent chandrakor mark on his forehead, matching his young-man reference; Jijabai also wears the small red crescent chandrakor on her forehead and matches her reference (older, dignified, NOT pregnant).",
+      "refs": [
+        "shivaji-young-man",
+        "jijabai",
+        "lal-mahal"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch15/ch15-the-news.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch15/ch15-the-news.png",
+        "local": "reference/events/ch15/ch15-the-news.png"
+      }
+    },
+    {
+      "slug": "ch15-shahaji-chains",
+      "title": "Chained, in Bijapur",
+      "anchor": "carried to Bijapur",
+      "scene_prompt": "Shahaji, the proud Maratha warrior-noble, held PRISONER in the opulent Bijapur court / a stone hall — standing in chains (wrist/ankle fetters) but UNBROKEN and dignified, head high, before richly-dressed sultanate guards and officials. He matches the Shahaji reference (full black beard, tall plumed Deccan turban) but stripped of his weapons, captive. Heavy, grave, unjust mood — a good man wronged by treachery, NOT humiliated or harmed on-page; no violence, no gore. Cool grand interior light; the threat is in the air, not shown. Vary the guards' faces; depict them as individuals, not a caricature.",
+      "refs": [
+        "shahaji",
+        "deccan-sultanate-soldier",
+        "bijapur-court"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch15/ch15-shahaji-chains.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch15/ch15-shahaji-chains.png",
+        "local": "reference/events/ch15/ch15-shahaji-chains.png"
+      }
+    },
+    {
+      "slug": "ch15-fateh-khan-marches",
+      "title": "An army in the hills",
+      "anchor": "Fateh Khan's crossed into the hills",
+      "scene_prompt": "A large, imposing Bijapur army on the march into the Sahyadri hill country: at its head rides the general Fateh Khan (matching his reference — a proud bearded commander in fine mail-and-plate armour and plumed helmet on a strong war-horse), leading columns of heavily-armoured Deccan sultanate cavalry, foot soldiers and baggage, banners and a sense of overwhelming force, winding up into rugged green-brown hills. Ominous, powerful, a storm approaching. Natural daylight. Vary the soldiers' faces and builds; antagonists shown as individuals. No gore.",
+      "refs": [
+        "fateh-khan",
+        "deccan-sultanate-soldier",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch15/ch15-fateh-khan-marches.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch15/ch15-fateh-khan-marches.png",
+        "local": "reference/events/ch15/ch15-fateh-khan-marches.png"
+      }
+    },
+    {
+      "slug": "ch15-the-battle",
+      "title": "What the hills do to armies",
+      "anchor": "the hills came alive around it",
+      "hero": true,
+      "scene_prompt": "Shivaji's first true battle, in the broken hill-country below the twin-fort of Purandar near Belsar: dynamic, cinematic, but NOT gory — lean, fast, lightly-armed white-clad Maval fighters led by Shivaji (bearded young man) come swarming down and across the rocks, ambushing a larger, heavier, strung-out Bijapur column of armoured cavalry that is bogged down and disordered in terrain too steep for horses. Sense of speed, surprise, cleverness and the mountains fighting on the Marathas' side — the light hill-men everywhere the heavy army is not. Show the CLASH and momentum and tension, but cut away from blood and death: no wounds, no corpses, focus on movement, dust, raised swords, falling-back enemy. Purandar fort looms above; Sahyadri ranges around. Shivaji has his beard, distinctive turban and chandrakor, matching his young-man reference. Vary every face on both sides.",
+      "refs": [
+        "shivaji-young-man",
+        "mavala-soldier",
+        "deccan-sultanate-soldier",
+        "purandar-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch15/ch15-the-battle.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch15/ch15-the-battle.png",
+        "local": "reference/events/ch15/ch15-the-battle.png"
+      }
+    },
+    {
+      "slug": "ch15-the-cost",
+      "title": "A man is not a fort",
+      "anchor": "Shivaji knelt by him a long time",
+      "scene_prompt": "Solemn, tender dusk aftermath on the hillside after the victory — the COST of war shown through grief, not gore: Shivaji (bearded young man) kneels in sorrow beside the fallen older companion Baji Pasalkar, who lies peacefully as if asleep, laid out with dignity and draped with a cloth and a few flowers (NO wounds, NO blood). Around them his Maval companions — the big Tanaji Malusare, the wiry Yesaji Kank and others — stand with heads bowed and weapons lowered, weary and mourning. Muted, reverent, heartbreaking but gentle; soft dusk light, the Sahyadri hills darkening. Shivaji has his beard, distinctive turban (rear peak + tassel) and chandrakor, matching his young-man reference; Baji Pasalkar matches his reference (older, grey-streaked moustache). Vary the mourners' faces.",
+      "refs": [
+        "shivaji-young-man",
+        "baji-pasalkar",
+        "tanaji-malusare",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch15/ch15-the-cost.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch15/ch15-the-cost.png",
+        "local": "reference/events/ch15/ch15-the-cost.png"
+      }
+    }
+  ]
+}

@@ -510,6 +510,19 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/rajmudra-seal.png",
         "local": "reference/objects/rajmudra-seal.png"
       }
+    },
+    "fateh-khan": {
+      "slug": "fateh-khan",
+      "name": "Fateh Khan (Bijapur general)",
+      "type": "character",
+      "first_chapter": 15,
+      "visual_description": "Fateh Khan, the capable Bijapur (Adilshahi) general sent in 1648 to crush Shivaji — an individual antagonist depicted with martial dignity and gravitas, NOT a caricature and never a stand-in for a people or faith. A confident, hard-faced commander in his forties with a strong dark beard and moustache and a stern, proud expression. He wears grand senior commander's war-gear of the 17th-century Deccan: fine Indo-Persian mail-and-plate armour with lobed steel chest plates over a rich coloured silk coat, gold-trimmed, a sash, and a fine domed steel helmet with a small plume/jewel and a chainmail neck-guard (or a richly wound battle turban). He carries a curved talwar and a round steel shield, and rides a strong, well-caparisoned war-horse. Grander, richer and more individual than the ordinary heavy sultanate trooper — clearly a high commander.",
+      "ref_prompt": "Character reference sheet: full-length figure of the proud middle-aged general in fine mail-and-plate armour and plumed helmet, curved talwar at his side, a strong war-horse beside or behind him, dignified martial bearing, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/fateh-khan.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/fateh-khan.png",
+        "local": "reference/characters/fateh-khan.png"
+      }
     }
   }
 }
