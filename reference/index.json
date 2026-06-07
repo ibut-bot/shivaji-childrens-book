@@ -313,6 +313,22 @@
         "local": "reference/characters/shivaji-teen.png"
       }
     },
+    "shivaji-young-man": {
+      "slug": "shivaji-young-man",
+      "name": "Shivaji (as a young man, ~17-18, bearded)",
+      "type": "character",
+      "first_chapter": 14,
+      "visual_description": "Shivaji as a young man of about seventeen to eighteen — the SAME person as the teenage reference, only a little older and more mature in the face, clearly and unmistakably the same individual: a handsome, sharp-featured young Maratha man with an aquiline nose and keen, confident eyes. He is now GROWING A BEARD: a neat but still youthful, not-yet-full beard in the VAN DYKE style — a moustache joined to a trimmed, slightly pointed chin beard — TOGETHER WITH SIDEBURNS running down in front of the ears along the jawline (the cheeks only lightly covered / still filling in: a developing young man's beard, NOT a thick bushy full beard, and definitely not clean-shaven). He wears Shivaji's iconic light cream/white wound turban (pheta) in this DISTINCTIVE SHAPE: it sits LOW and rounded across the forehead and brows at the FRONT, then sweeps UP and BACKWARD to a soft raised PEAK at the upper BACK of the head; a thick ornamental TASSEL of cords and pearls hangs straight DOWN from that rear peak, behind and beside one ear (the peak and tassel are at the BACK of the head, NOT sticking out sideways). The cloth is light cream/white with a fine quilted (cross-hatch) texture and a subtle gold edge — NOT a solid-gold metal cap. He also wears a large gold hoop earring, a fine white/cream angarkha tunic with a patterned sash (patka) worn diagonally across the chest, close-fitting white churidar trousers, simple shoes, and a curved talwar at his side. Charismatic, dignified, a maturing leader and king-in-the-making — the recognizable young-Shivaji look, now bearded. NATURAL, REALISTIC body and head proportions.",
+      "ref_prompt": "Character reference sheet: full-length standing figure of the roughly seventeen-to-eighteen-year-old, regal confident bearing, the white wound turban with its rear peak and the tassel hanging DOWN at the BACK (not sideways), the developing Van Dyke beard with sideburns clearly visible, one hand near his sheathed talwar (NO shield), natural realistic proportions, plain soft pale background, full body clearly visible.",
+      "source_refs": [
+        "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/shivaji-teen.png"
+      ],
+      "image": {
+        "s3_key": "shivaji/reference/characters/shivaji-young-man.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/shivaji-young-man.png",
+        "local": "reference/characters/shivaji-young-man.png"
+      }
+    },
     "tanaji-malusare": {
       "slug": "tanaji-malusare",
       "name": "Tanaji Malusare",
@@ -482,8 +498,13 @@
       "name": "The Rajmudra (Shivaji's royal seal)",
       "type": "object",
       "first_chapter": 14,
-      "visual_description": "Shivaji's royal seal, the Rajmudra: a small, finely made eight-sided (octagonal) brass/bronze hand seal-stamp on a turned wooden handle, its flat face intricately engraved with concentric octagonal borders and dense ornamental Indian engraving, and beside it the round red wax / vermilion impression it leaves pressed onto a folded cream-coloured letter. An object of quiet authority and craftsmanship — a ruler's seal, ornate and dignified. (Decorative engraved pattern only; no readable lettering.)",
-      "ref_prompt": "Object reference study of the ornate octagonal brass royal seal-stamp on its wooden handle lying beside a folded letter bearing its red wax seal impression, three-quarter view, plain soft pale background, no people, decorative engraving only.",
+      "visual_description": "Shivaji's royal seal — the authentic Rajmudra: a single octagonal (eight-sided) seal emblem bearing the real Sanskrit royal inscription in clear Devanagari script, the lettering arranged in horizontal lines within a bold octagonal border. This is the genuine historical seal EXACTLY as in the provided source image — its octagonal shape, line layout and every Devanagari character preserved faithfully and legibly. A dignified emblem of a ruler's authority.",
+      "ref_prompt": "Faithful flat front-on rendering of the whole octagonal Rajmudra seal emblem with its Devanagari inscription, centred, on a plain neutral/dark background, no people — preserve the source's text and form exactly.",
+      "source_refs": [
+        "https://hel1.your-objectstorage.com/openclaw83/shivaji/_work/rajmudra-source.png"
+      ],
+      "source_mode": "restyle",
+      "allow_text": true,
       "image": {
         "s3_key": "shivaji/reference/objects/rajmudra-seal.png",
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/rajmudra-seal.png",

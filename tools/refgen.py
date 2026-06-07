@@ -28,9 +28,12 @@ INDEX = ROOT / "reference" / "index.json"
 EVENTS_DIR = ROOT / "reference" / "events"
 CHAPTERS_DIR = ROOT / "chapters"
 
-SUFFIX = (" No text, no words, no letters and no captions anywhere in the image. "
-          "A single cohesive illustration. Use natural, balanced colour and lighting; "
-          "AVOID an artificial uniform yellow or golden sheen / glow washed over the whole image.")
+NO_TEXT = " No text, no words, no letters and no captions anywhere in the image."
+SUFFIX_TAIL = (" A single cohesive illustration. Use natural, balanced colour and lighting; "
+               "AVOID an artificial uniform yellow or golden sheen / glow washed over the whole image.")
+# Default suffix forbids text. Entities/events may set "allow_text": true to keep
+# legible script (e.g. the Sanskrit on Shivaji's Rajmudra seal) — then NO_TEXT is dropped.
+SUFFIX = NO_TEXT + SUFFIX_TAIL
 MAX_WORKERS = 4
 
 
@@ -65,26 +68,38 @@ def cmd_refs(args):
     print(f"Generating {len(todo)} reference image(s): {', '.join(e['slug'] for e in todo)}")
 
     def work(e):
-        prompt = f"{style} {e['visual_description']} {e['ref_prompt']}{SUFFIX}"
+        suffix = SUFFIX_TAIL if e.get("allow_text") else SUFFIX
+        prompt = f"{style} {e['visual_description']} {e['ref_prompt']}{suffix}"
         key = f"shivaji/reference/{e['type']}s/{e['slug']}.png"
         local = ROOT / "reference" / f"{e['type']}s" / f"{e['slug']}.png"
         # If a looked-up source image is provided (e.g. a documented historical
         # likeness), condition on it via edit-image so the result matches.
         sources = e.get("source_refs") or None
         mode = e.get("source_mode")
-        if sources and mode == "costume":
+        if sources and mode == "restyle":
+            # Faithfully re-render a REAL object/image (e.g. the authentic Rajmudra
+            # seal) in our art style, preserving its exact form AND any lettering.
+            prompt = (f"{style} Redraw the provided reference image in this illustration art style, "
+                      f"FAITHFULLY preserving its exact overall shape and form, composition, proportions, "
+                      f"layout, engraving/relief and ALL of its lettering and script EXACTLY as in the source — "
+                      f"do NOT alter, add, remove, translate, mirror or garble any text, characters or symbols; keep "
+                      f"every character legible and identical to the source. Only change the rendering to the described "
+                      f"art style. Depicting: {e['visual_description']} {e['ref_prompt']} "
+                      f"Ignore any watermark, logo, platform or background in the source.{suffix}")
+        elif sources and mode == "costume":
             # Copy ONLY the headgear/costume from the source, NOT the person.
             prompt = (f"{style} {e['visual_description']} {e['ref_prompt']} "
                       f"Use the provided reference image ONLY to copy the exact TURBAN / HEADGEAR shape, style and colour "
                       f"and the clothing style and colours. Do NOT copy the reference person's face, age or build — the "
                       f"face, age, build and identity must follow the written description above (a clearly DIFFERENT, "
-                      f"distinct person). Ignore any watermark or base/platform in the source.{SUFFIX}")
+                      f"distinct person). Ignore any watermark or base/platform in the source.{suffix}")
         elif sources:
             prompt = (f"{style} Redraw this person as {e['visual_description']} {e['ref_prompt']} "
-                      f"Match the source image for the FACE, moustache/beard, and turban/headgear shape and colour, "
-                      f"and the overall clothing style. Otherwise the written description takes PRIORITY — especially "
-                      f"for weapons, shield, and footwear, which must follow the description even if the source differs. "
-                      f"Ignore any watermark or base/platform in the source.{SUFFIX}")
+                      f"Match the source image for the FACE and turban/headgear shape and colour, and the overall "
+                      f"clothing style. FACIAL HAIR (moustache/beard/sideburns) must follow the WRITTEN DESCRIPTION "
+                      f"above, which may differ from the source as the character ages. Otherwise the written description "
+                      f"takes PRIORITY — especially for facial hair, weapons, shield, and footwear, which must follow "
+                      f"the description even if the source differs. Ignore any watermark or base/platform in the source.{suffix}")
         url = imagine.generate_and_store(key=key, prompt=prompt, refs=sources, local_copy=local)
         return e["slug"], key, url
 
@@ -146,19 +161,21 @@ def cmd_events(args):
     print(f"Generating {len(todo)} event image(s): {', '.join(e['slug'] for e in todo)}")
 
     def work(e):
+        suffix = SUFFIX_TAIL if e.get("allow_text") else SUFFIX
         ref_urls = [entities[r]["image"]["url"] for r in e["refs"]]
         ref_desc = " ".join(f"{entities[r]['name']}: {entities[r]['visual_description']}" for r in e["refs"])
         prompt = (f"{style} {e['scene_prompt']} "
                   f"Use the reference images for the costume design, named characters and places. "
                   f"Each NAMED character must match their reference image's FACE, age and FACIAL HAIR exactly "
-                  f"(e.g. the teenage Shivaji always has his thin moustache and NO beard; do not change his features). "
+                  f"(match each character's own reference for this chapter — e.g. Shivaji's exact facial hair and his "
+                  f"distinctive turban as shown in his reference; do not change his features). "
                   f"Keep each character's IDENTITY from the reference, but give them a FACIAL EXPRESSION that fits "
                   f"THIS scene's mood (solemn in a sacred/solemn scene, etc.) — do NOT copy a default smile/grin from a "
                   f"reference sheet into a serious moment. "
                   f"IMPORTANT: when several soldiers or background people appear, give each one a DISTINCT "
                   f"face, age and build — vary their features; never repeat the same identical face. The "
                   f"Mavala reference defines the uniform/look, not a single repeated person. "
-                  f"(Reference details — {ref_desc}){SUFFIX}")
+                  f"(Reference details — {ref_desc}){suffix}")
         key = f"shivaji/events/{chap}/{e['slug']}.png"
         local = ROOT / "reference" / "events" / chap / f"{e['slug']}.png"
         url = imagine.generate_and_store(key=key, prompt=prompt, refs=ref_urls, local_copy=local)
