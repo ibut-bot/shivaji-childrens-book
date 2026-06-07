@@ -476,6 +476,19 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/siddi-amber.png",
         "local": "reference/characters/siddi-amber.png"
       }
+    },
+    "rajmudra-seal": {
+      "slug": "rajmudra-seal",
+      "name": "The Rajmudra (Shivaji's royal seal)",
+      "type": "object",
+      "first_chapter": 14,
+      "visual_description": "Shivaji's royal seal, the Rajmudra: a small, finely made eight-sided (octagonal) brass/bronze hand seal-stamp on a turned wooden handle, its flat face intricately engraved with concentric octagonal borders and dense ornamental Indian engraving, and beside it the round red wax / vermilion impression it leaves pressed onto a folded cream-coloured letter. An object of quiet authority and craftsmanship — a ruler's seal, ornate and dignified. (Decorative engraved pattern only; no readable lettering.)",
+      "ref_prompt": "Object reference study of the ornate octagonal brass royal seal-stamp on its wooden handle lying beside a folded letter bearing its red wax seal impression, three-quarter view, plain soft pale background, no people, decorative engraving only.",
+      "image": {
+        "s3_key": "shivaji/reference/objects/rajmudra-seal.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/objects/rajmudra-seal.png",
+        "local": "reference/objects/rajmudra-seal.png"
+      }
     }
   }
 }
