@@ -1,0 +1,85 @@
+{
+  "_comment": "Key illustrated events for Chapter 16 — The Cleverest Letter. Verified spine: 1649 Shivaji wrote to Mughal prince Murad Bakhsh (son of Shah Jahan) professing loyalty, making Bijapur fear the Bhonsles would defect to the Mughals; Bijapur freed Shahaji (May 1649); price = Shivaji returned Kondhana + promised to sit quietly. First contact with the Mughal empire (his future great enemy). Letter wording not extant; dramatised. Antagonists/empires shown as dignified individuals, never a people/faith. Shivaji = the LOCKED adult young-man ref (full beard, sturdy, pearls, established jiretop, chandrakor). 'anchor' is an EXACT substring of chapters/ch16.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 16,
+  "events": [
+    {
+      "slug": "ch16-the-bigger-map",
+      "title": "Three giants, not one",
+      "anchor": "He looked at a map",
+      "scene_prompt": "Indoors at the Lal Mahal by lamplight: Shivaji (the locked adult young-man — sturdy build, full thick black beard and bold moustache, iconic cream/white jiretop turban with rear peak + tassel, pearl necklaces, chandrakor on forehead) leans intently over a large hand-drawn map of the whole Deccan / India spread on a low table, studying it, deep in calculation — realising the board has THREE great powers, not one. Thoughtful, strategic, a plan forming. Warm lamplight, papers and a reed pen. Matches his young-man reference exactly.",
+      "refs": [
+        "shivaji-young-man",
+        "lal-mahal"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch16/ch16-the-bigger-map.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch16/ch16-the-bigger-map.png",
+        "local": "reference/events/ch16/ch16-the-bigger-map.png"
+      }
+    },
+    {
+      "slug": "ch16-the-letter",
+      "title": "The cleverest letter",
+      "anchor": "pressed his own seal into it",
+      "hero": true,
+      "scene_prompt": "A pivotal, charged moment by warm lamplight: Shivaji (locked adult young-man ref — sturdy, full black beard and bold moustache, iconic cream/white jiretop turban with rear peak + tassel, pearl necklaces, chandrakor) has just finished writing the fateful letter and presses his octagonal RAJMUDRA royal seal into a blob of warm red wax on the folded cream letter, the fresh octagonal seal impression with its Devanagari script visible (matching the Rajmudra reference). A faint, knowing, sober half-smile — he understands the size of what he is doing. The big honest Tanaji Malusare stands beside him, watching, slowly realising the cleverness of the plan. Intimate, momentous, clever-but-grave mood. Warm lamp glow. Matches the references exactly.",
+      "refs": [
+        "shivaji-young-man",
+        "rajmudra-seal",
+        "tanaji-malusare",
+        "lal-mahal"
+      ],
+      "allow_text": true,
+      "image": {
+        "s3_key": "shivaji/events/ch16/ch16-the-letter.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch16/ch16-the-letter.png",
+        "local": "reference/events/ch16/ch16-the-letter.png"
+      }
+    },
+    {
+      "slug": "ch16-mughal-prince",
+      "title": "The empire takes notice",
+      "anchor": "the boy in the hills was now a name the Mughal court knew",
+      "scene_prompt": "In a grand, opulent Mughal audience hall (matching the Mughal-court reference — white marble and red sandstone, cusped arches, refined imperial grandeur, distinct from the Deccan Bijapur court): the young Mughal prince Murad Bakhsh (matching his reference — fine Mughal court robes, jewelled feathered turban, pearls, faint halo) sits/stands reading Shivaji's folded letter, an attendant nearby, his expression coolly intrigued. The sense of a vast, mighty empire turning its attention, for the first time, toward a small clever player far to the south. Magnificent, cool, powerful mood. Depict the prince and courtiers with full dignity, as individuals. Vary the courtiers' faces.",
+      "refs": [
+        "murad-bakhsh",
+        "mughal-court"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch16/ch16-mughal-prince.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch16/ch16-mughal-prince.png",
+        "local": "reference/events/ch16/ch16-mughal-prince.png"
+      }
+    },
+    {
+      "slug": "ch16-shahaji-freed",
+      "title": "Freed by a folded paper",
+      "anchor": "walked out of his imprisonment a free man",
+      "scene_prompt": "Shahaji Bhonsle (matching his reference — full black beard, tall plumed Deccan turban, dignified) walking FREE, his chains struck off, leaving his imprisonment at last — upright, dignified, relieved, his weapons and honour restored, perhaps a Bijapur official gesturing him out. A moment of release and quiet vindication — freed not by an army but by his son's cleverness. Hopeful, grave-but-warm mood; grand stone interior / gateway, cool light brightening. No violence, no gore. Vary background faces; individuals, not caricatures.",
+      "refs": [
+        "shahaji",
+        "bijapur-court"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch16/ch16-shahaji-freed.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch16/ch16-shahaji-freed.png",
+        "local": "reference/events/ch16/ch16-shahaji-freed.png"
+      }
+    },
+    {
+      "slug": "ch16-give-back-kondhana",
+      "title": "The price, paid in stone",
+      "anchor": "he handed the mountain back to Bijapur",
+      "scene_prompt": "Bittersweet daytime scene at the great hill-fort of Kondhana (matching the Kondhana reference): the saffron/orange Maratha banner being lowered/handed down from the fort as it is given back to Bijapur — the price of Shahaji's freedom. Shivaji (locked adult young-man ref — sturdy, full beard, iconic jiretop, pearls, chandrakor) stands looking up at the fort he is surrendering, his expression composed but privately pained and resolute (a silent promise to return). A few Maval men and Bijapuri officers present, dignified, no conflict. Muted, wistful, dignified mood; natural daylight, the Sahyadri ranges beyond. Matches the references exactly.",
+      "refs": [
+        "shivaji-young-man",
+        "kondhana-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch16/ch16-give-back-kondhana.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch16/ch16-give-back-kondhana.png",
+        "local": "reference/events/ch16/ch16-give-back-kondhana.png"
+      }
+    }
+  ]
+}

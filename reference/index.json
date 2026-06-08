@@ -520,6 +520,32 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/fateh-khan.png",
         "local": "reference/characters/fateh-khan.png"
       }
+    },
+    "murad-bakhsh": {
+      "slug": "murad-bakhsh",
+      "name": "Prince Murad Bakhsh (Mughal prince)",
+      "type": "character",
+      "first_chapter": 16,
+      "visual_description": "Prince Murad Bakhsh, a son of the Mughal Emperor Shah Jahan and the Mughal viceroy of the Deccan around 1649 — depicted with full dignity as a young Mughal royal, an individual, never a caricature. A young man of about twenty-five with fair skin, fine refined features, and a neat short dark beard and moustache. He wears opulent NORTHERN-MUGHAL court finery (distinct from the Deccan-Bijapuri style): a fine flowing white/ivory or richly-coloured muslin jama (robe) tied with a jewelled patka sash, ropes of large pearls and gemstones, gold armbands and rings, and a Mughal turban topped with a jewelled turban-ornament (sarpech) and an upright feather aigrette (kalgi). A faint golden halo (nimbus) behind his head in the Mughal portrait tradition. Holds himself with the assured grace of imperial power. Wealthy, cultured, powerful.",
+      "ref_prompt": "Character reference sheet: full-length standing dignified young Mughal prince in opulent Mughal court robes and a jewelled feathered turban, a faint golden halo behind the head, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/murad-bakhsh.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/murad-bakhsh.png",
+        "local": "reference/characters/murad-bakhsh.png"
+      }
+    },
+    "mughal-court": {
+      "slug": "mughal-court",
+      "name": "The Mughal court (Deccan)",
+      "type": "location",
+      "first_chapter": 16,
+      "visual_description": "A grand Mughal audience hall — the opulent court of a Mughal prince, in the rich NORTHERN-Mughal imperial style (distinct from the Deccan-Islamic Bijapur durbar): elegant cusped (multifoil) arches in pale red-sandstone and white marble, fine pietra-dura floral inlay, slender columns, sumptuous carpets and bolsters, hanging lamps, gauzy drapes, and a raised canopied throne/dais. Airy, immense, magnificent — the seat of the mightiest empire in the world. Cool, refined imperial grandeur.",
+      "ref_prompt": "Wide establishing interior view of the opulent white-marble-and-red-sandstone Mughal audience hall with cusped arches, inlay and a canopied throne, no people, refined imperial light.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/mughal-court.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/mughal-court.png",
+        "local": "reference/locations/mughal-court.png"
+      }
     }
   }
 }
