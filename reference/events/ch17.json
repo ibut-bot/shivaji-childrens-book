@@ -1,0 +1,69 @@
+{
+  "_comment": "Key illustrated events for Chapter 17 — The Quiet Years (short/quiet). Verified spine: 1650-55 Shivaji consolidated — drilled+paid army, strengthened forts, fair governance, and the spy network under Bahirji Naik; famed for strict impartial justice protecting women/ordinary people regardless of rank (the documented Babaji Gujar patil case). Crime kept NON-GRAPHIC per sensitivity; punishment off-page (shown as judgment, not mutilation). Shivaji = LOCKED adult young-man ref (full beard, sturdy, pearls, established jiretop, chandrakor). 'anchor' is an EXACT substring of chapters/ch17.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 17,
+  "events": [
+    {
+      "slug": "ch17-building",
+      "title": "Growing deeper, not outward",
+      "anchor": "really built it",
+      "scene_prompt": "Daytime in a Maval valley during the quiet building years: Shivaji (the locked adult young-man reference — sturdy build, full thick black beard and bold moustache, iconic cream/white jiretop turban with rear peak + tassel, pearl necklaces, chandrakor) stands reviewing his growing, now properly TRAINED and DISCIPLINED army — ranks of lean white-clad Maval foot-soldiers (matching the mavala-soldier reference) drilling in good order with talwars and small round shields, organised companies, a strengthened hill-fort and terraced prosperous fields on the slopes behind. Purposeful, hopeful, a quiet machine being built. Natural daylight, Sahyadri ranges. Vary the soldiers' faces and builds. Shivaji matches his young-man reference exactly (jiretop peak + tassel at the BACK, not a dome).",
+      "refs": [
+        "shivaji-young-man",
+        "mavala-soldier",
+        "maval-hills"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch17/ch17-building.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch17/ch17-building.png",
+        "local": "reference/events/ch17/ch17-building.png"
+      }
+    },
+    {
+      "slug": "ch17-bahirji",
+      "title": "They have iron, we'll have eyes",
+      "anchor": "you would never have looked at him twice",
+      "scene_prompt": "A quiet, secret indoor meeting by lamplight at Rajgad / the Lal Mahal: the spymaster Bahirji Naik (matching his reference — a lean, ordinary, forgettable Maratha man in humble traveller's clothes, a walking staff and shoulder-bundle, with sharp watchful eyes) reports secretly to Shivaji (the locked adult young-man reference — sturdy, full beard, iconic jiretop turban with rear peak + tassel, pearls, chandrakor), leaning in low and confidential, perhaps a small map or token between them. Hushed, conspiratorial, clever mood — the building of a spy network. Warm lamplight. Shivaji matches his young-man reference exactly. Bahirji deliberately plain and unremarkable.",
+      "refs": [
+        "shivaji-young-man",
+        "bahirji-naik",
+        "lal-mahal"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch17/ch17-bahirji.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch17/ch17-bahirji.png",
+        "local": "reference/events/ch17/ch17-bahirji.png"
+      }
+    },
+    {
+      "slug": "ch17-justice",
+      "title": "No rank above the law",
+      "anchor": "the entire weight of his justice",
+      "hero": true,
+      "scene_prompt": "A solemn hall-of-justice scene, dignified and NON-VIOLENT (no gore, no punishment shown — this is the moment of judgment): Shivaji (the locked adult young-man reference — sturdy, full beard, iconic jiretop turban with rear peak + tassel, pearls, chandrakor) sits in stern, grave judgment on a low seat/dais. Before him on one side stands a humble, grief-stricken poor farming family (an old farmer and a sorrowful village woman, plainly dressed, dignified) who have come for justice; on the other side stands the accused village headman (patil) — once arrogant, richly dressed and well-fed, now brought low, fearful and guilty, his rank no longer protecting him, perhaps guards at his sides. Shivaji's expression is just, unflinching and severe — coming down on the powerful to protect the powerless. Charged, moral, weighty mood. Warm indoor light. NO violence or blood. Vary all faces. Shivaji matches his young-man reference exactly.",
+      "refs": [
+        "shivaji-young-man",
+        "maval-village"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch17/ch17-justice.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch17/ch17-justice.png",
+        "local": "reference/events/ch17/ch17-justice.png"
+      }
+    },
+    {
+      "slug": "ch17-beloved",
+      "title": "A king who meant it",
+      "anchor": "a lord in the hills who actually",
+      "scene_prompt": "A warm, hopeful daytime scene in a Maval hill-village (matching the maval-village reference): Shivaji (the locked adult young-man reference — sturdy, full beard, iconic jiretop turban with rear peak + tassel, pearls, chandrakor) among grateful, affectionate ordinary villagers — farmers, herders, craftsmen, women and children — who look to him with trust, relief and love as their true protector-king; some folding hands in respect, faces lit with hope. Not a crowd worshipping a distant lord but a people who have decided this is THEIR king. Warm natural light, prosperous safe village, terraced fields and hills beyond. Tender, uplifting mood. Vary every villager's face, age and build. Shivaji matches his young-man reference exactly.",
+      "refs": [
+        "shivaji-young-man",
+        "maval-village"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch17/ch17-beloved.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch17/ch17-beloved.png",
+        "local": "reference/events/ch17/ch17-beloved.png"
+      }
+    }
+  ]
+}

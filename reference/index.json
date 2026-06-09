@@ -546,6 +546,19 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/mughal-court.png",
         "local": "reference/locations/mughal-court.png"
       }
+    },
+    "bahirji-naik": {
+      "slug": "bahirji-naik",
+      "name": "Bahirji Naik (spymaster)",
+      "type": "character",
+      "first_chapter": 17,
+      "visual_description": "Bahirji Naik, Shivaji's spymaster and head of his scout/intelligence network — deliberately ORDINARY and forgettable, a man built to vanish in any crowd. A lean, wiry Maratha man in his forties of average height, with a plain, unremarkable, weathered face and SHARP, watchful, intelligent eyes (the only striking thing about him). He dresses as a humble traveller / wandering performer: a simple modest off-white tunic and dhoti, a worn wrap or shawl over one shoulder, and a small plain head-cloth or modest turban — NOT rich, NOT a warrior-noble's finery. He carries a wanderer's props that double as disguise: a walking staff, a cloth shoulder-bundle, perhaps a small hand-drum. Quiet, observant, clever and self-effacing — a master of disguise who could pass as a singer, a beggar, a trader or a pilgrim.",
+      "ref_prompt": "Character reference sheet: full-length standing figure of the lean, ordinary, watchful spy in humble traveller's clothes with a walking staff and shoulder-bundle, modest and unremarkable, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/bahirji-naik.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/bahirji-naik.png",
+        "local": "reference/characters/bahirji-naik.png"
+      }
     }
   }
 }
