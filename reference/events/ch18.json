@@ -1,0 +1,83 @@
+{
+  "_comment": "Key illustrated events for Chapter 18 — The Forest Kingdom (Javli; CLIMAX / moral-hard chapter). Verified spine: the forested principality of Javli, held by the proud Maratha More clan (chief = Chandrarao) under Bijapur, blocked Shivaji's path to the Konkan/sea; his attempt to win them over failed, the More chief replied with contempt and defiance, and the campaign followed (Jan 1656). MORAL framing (sensitivity + honesty): the Mores are fellow MARATHAS defending their own home, NOT foreigners/oppressors — conflict is politics/pride, never community. Chandrarao does NOT meet Shivaji in person in this chapter (all by letter) — he appears as a reference-gallery card only, not in a scene. Crime/killing kept OFF-PAGE (owned honestly in the endnote, not depicted). Shivaji = LOCKED adult young-man ref (sturdy, full thick black beard + bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, several pearl necklaces, small red upward-crescent chandrakor). Jijabai also wears the chandrakor from Ch.14 on. 'anchor' is an EXACT substring of chapters/ch18.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 18,
+  "events": [
+    {
+      "slug": "ch18-javli",
+      "title": "The forest kingdom",
+      "anchor": "The forest swallowed them.",
+      "hero": true,
+      "scene_prompt": "A brooding, atmospheric establishing landscape of Javli (matching the javli-forest reference) — a vast, wild, almost impassable forested mountain realm on the western edge of the Sahyadris: deeply wooded folded hills and deep shadowed ravines, a rushing stream far below, drifting mist between dense trees, dim green half-light under a thick canopy, layered blue-green ridges receding into haze toward the distant lowlands and the far-off sea. A green, secretive, dangerous jungle-kingdom that swallows strangers. No clear path. Mood: wild, shadowed, forbidding, beautiful. Either no people at all, or only one or two tiny, half-hidden Maratha forest-watchers in the trees to hint that this forest is guarded. Balanced natural colour, NO artificial yellow wash.",
+      "refs": [
+        "javli-forest"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch18/ch18-javli.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch18/ch18-javli.png",
+        "local": "reference/events/ch18/ch18-javli.png"
+      }
+    },
+    {
+      "slug": "ch18-the-offer",
+      "title": "The offer of brotherhood",
+      "anchor": "It was the offer of brotherhood.",
+      "scene_prompt": "An earnest, hopeful indoor scene by warm lamplight at the Lal Mahal / Rajgad: Shivaji (the locked adult young-man reference — sturdy build, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with the rear PEAK and tassel hanging DOWN at the BACK, several pearl necklaces, small red upward-crescent chandrakor) sits at a low writing desk composing a careful letter, quill/reed pen in hand, a sealed palm-leaf or paper letter and a messenger waiting respectfully nearby. His expression is sincere, hopeful, statesmanlike — he is making an honest offer of alliance, not a threat. Warm intimate light, maps or scrolls on the desk. Shivaji matches his reference exactly (jiretop peak + tassel at the BACK, not a dome). NO text/letters legible in the image.",
+      "refs": [
+        "shivaji-young-man",
+        "lal-mahal"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch18/ch18-the-offer.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch18/ch18-the-offer.png",
+        "local": "reference/events/ch18/ch18-the-offer.png"
+      }
+    },
+    {
+      "slug": "ch18-the-insult",
+      "title": "The reply was not warm",
+      "anchor": "His companions watched his face and saw it go very still.",
+      "hero": true,
+      "scene_prompt": "A charged, tense indoor scene: Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, several pearl necklaces, chandrakor) stands holding an unfolded letter he has just read, his face gone VERY STILL, grave and controlled — wounded pride mastered, not shouting. Close beside him his big powerful companion Tanaji Malusare (matching the tanaji-malusare reference — broad, bold moustache, white tunic, bold red sash, wide flat twin-peaked maroon Mavala pheta) bristles with open anger, jaw set, a hand dropping to his sword-hilt, ready to answer the insult with steel. One or two other Maval companions look on, grim. The mood is the sting of a deliberate insult and the dangerous quiet before a decision. Warm indoor light. Shivaji matches his reference exactly. Vary the companions' faces. NO legible text on the letter.",
+      "refs": [
+        "shivaji-young-man",
+        "tanaji-malusare"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch18/ch18-the-insult.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch18/ch18-the-insult.png",
+        "local": "reference/events/ch18/ch18-the-insult.png"
+      }
+    },
+    {
+      "slug": "ch18-jijabai",
+      "title": "No clean road",
+      "anchor": "the folded letter in his hand",
+      "scene_prompt": "A quiet, intimate, sombre night scene beside a dying fire: Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, pearl necklaces, chandrakor) sits troubled and thoughtful, a folded letter in his hand, the embers low. His mother Jijabai (matching the jijabai reference — maroon nine-yard nauvari saree with green-gold border, gold nath nose-ring, head-shawl, now older and dignified, with a small red upward-crescent chandrakor on her forehead too) sits with him and lays a steady, comforting hand over his. Their faces are grave and tender — a mother helping her son carry the weight of a hard, morally heavy decision. Warm low firelight, deep night shadows, weighty reflective mood. Both match their references. NO legible text on the letter.",
+      "refs": [
+        "shivaji-young-man",
+        "jijabai"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch18/ch18-jijabai.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch18/ch18-jijabai.png",
+        "local": "reference/events/ch18/ch18-jijabai.png"
+      }
+    },
+    {
+      "slug": "ch18-the-order",
+      "title": "He gave the order",
+      "anchor": "He gave the order.",
+      "scene_prompt": "A resolute, sombre scene at the edge of the great forest in low winter light: Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, several pearl necklaces, chandrakor) stands looking westward into the dark green wall of the Javli forest (matching the javli-forest reference — dense wooded ravines, mist, dim green depth), his expression grave and determined — heavy resolve, NOT triumph or glee, a man choosing a hard road. Behind and around him his lean white-clad Maval foot-soldiers (matching the mavala-soldier reference — maroon twin-peaked phetas, white tunics, orange sashes, talwars and small round shields) quietly ready their weapons to march into the forest. Low streams, bare winter Sahyadri light. Mood: solemn, determined, the calm before a hard campaign. Shivaji matches his reference exactly. Give each soldier a DISTINCT face, age and build.",
+      "refs": [
+        "shivaji-young-man",
+        "mavala-soldier",
+        "javli-forest"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch18/ch18-the-order.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch18/ch18-the-order.png",
+        "local": "reference/events/ch18/ch18-the-order.png"
+      }
+    }
+  ]
+}

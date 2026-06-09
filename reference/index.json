@@ -559,6 +559,32 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/bahirji-naik.png",
         "local": "reference/characters/bahirji-naik.png"
       }
+    },
+    "javli-forest": {
+      "slug": "javli-forest",
+      "name": "Javli (the forest kingdom)",
+      "type": "location",
+      "first_chapter": 18,
+      "visual_description": "Javli — a wild, almost impassable forested mountain realm on the western edge of the Sahyadris, tilting down toward the distant Konkan coast. A vast tangle of densely wooded hills and deep shadowed ravines, with rushing streams and steep gorges, and a forest canopy grown so thick that little sunlight reaches the leaf-littered floor. Drifting mist between the trees, twisted roots, dim green half-light, a brooding secretive depth. It is a natural fortress of trees rather than stone — a green, drowned, dangerous jungle-kingdom that swallows strangers and hides its keepers. Layered blue-green ridges receding into haze.",
+      "ref_prompt": "Wide establishing landscape of the dense dark Sahyadri forest realm — deeply wooded folded hills and shadowed ravines, a rushing stream, drifting mist, dim green light under a thick canopy, no people, brooding and secretive mood, balanced natural colour and daylight (avoid an artificial yellow wash).",
+      "image": {
+        "s3_key": "shivaji/reference/locations/javli-forest.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/javli-forest.png",
+        "local": "reference/locations/javli-forest.png"
+      }
+    },
+    "chandrarao-more": {
+      "slug": "chandrarao-more",
+      "name": "Chandrarao More (chief of Javli)",
+      "type": "character",
+      "first_chapter": 18,
+      "visual_description": "Chandrarao More, the proud hereditary Maratha chief of the forest country of Javli — depicted as a dignified individual antagonist driven by pride and politics, NOT a caricature and never a stand-in for any people or faith (he is himself a Maratha hill-lord, the same people as Shivaji). A haughty, confident Maratha clan-lord in his late forties to fifties, weathered and strong-jawed, with a bold thick upturned grey-flecked black moustache and a short beard, and a proud, faintly contemptuous, imperious expression. He wears the rich dress of a senior Maratha forest-chieftain (deshmukh-class): a fine deep-coloured angarkha robe with gold borders, a patterned sash (patka), a shawl, gold necklaces and rings, and a Maratha pheta turban (deep maroon/saffron) — distinctly MARATHA, NOT sultanate Indo-Persian armour. A curved talwar with a disc hilt at his side. Lordly, arrogant, self-assured bearing — a man used to bowing to no one.",
+      "ref_prompt": "Character reference sheet: full-length standing figure of the proud middle-aged Maratha forest-chieftain in a rich gold-bordered angarkha, sash, shawl and maroon Maratha pheta, bold upturned moustache and short beard, gold necklaces, a curved talwar at his side, haughty self-assured bearing, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/chandrarao-more.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/chandrarao-more.png",
+        "local": "reference/characters/chandrarao-more.png"
+      }
     }
   }
 }
