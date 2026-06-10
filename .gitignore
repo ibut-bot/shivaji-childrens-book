@@ -12,3 +12,6 @@
 .venv/
 __pycache__/
 _work/
+
+# Private Kindle/EPUB build (kept out of public git — carries personal details)
+*.epub
