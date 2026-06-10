@@ -585,6 +585,32 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/chandrarao-more.png",
         "local": "reference/characters/chandrarao-more.png"
       }
+    },
+    "raigad-hill": {
+      "slug": "raigad-hill",
+      "name": "Raigad (the hill Rairi, wild/unbuilt)",
+      "type": "location",
+      "first_chapter": 19,
+      "visual_description": "The colossal lonely hill then called Rairi — later rebuilt as the great fortress of Raigad, but shown here STILL WILD AND UNBUILT, with NO fort, NO ramparts and NO buildings on it yet. An immense, isolated, table-topped mountain standing entirely apart from the surrounding ranges, on the western Konkan-edge country: sheer, near-vertical dark basalt cliffs falling away on every single side to forested lower slopes, rising to one broad, flat, high plateau crown riding far above everything around it. It looks like a natural fortress set there on purpose — vast, solitary, sheer and commanding, almost impossible to climb. Wild green scrub and forest at its feet, hazy ranges and the distant lowlands beyond. Brooding, awe-inspiring, full of destiny — an empty stage waiting for greatness.",
+      "ref_prompt": "Wide dramatic establishing landscape of the single colossal isolated flat-topped mountain with sheer cliffs on all sides, completely BARE and UNBUILT (no fort, no walls, no structures), standing alone above forested country and hazy ranges, soft natural daylight, no people, awe-inspiring brooding scale, balanced natural colour (avoid an artificial yellow wash).",
+      "image": {
+        "s3_key": "shivaji/reference/locations/raigad-hill.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/raigad-hill.png",
+        "local": "reference/locations/raigad-hill.png"
+      }
+    },
+    "konkan-coast": {
+      "slug": "konkan-coast",
+      "name": "The Konkan and the sea (seen from the hills)",
+      "type": "location",
+      "first_chapter": 19,
+      "visual_description": "The view westward from the high western edge of the Sahyadri mountains, looking down and out over the Konkan: ridge after forested ridge tumbling steeply downward and away, opening into a vast hazy green coastal lowland that stretches to the horizon, and far out beyond it a thin, bright, silver line — the distant Arabian Sea — catching the light. Immense depth and distance, layered blue-green haze, a huge open sky. A breathtaking sense of a whole new world opening up beyond the familiar high hills: lowland, river-glints, and at last the far gleam of the sea.",
+      "ref_prompt": "Wide sweeping panoramic landscape from a high Sahyadri ridge looking west and down over tumbling forested ridges into a vast hazy coastal lowland, with a thin bright silver line of distant sea on the far horizon, layered blue-green atmospheric haze, big luminous sky, no people, awe and openness, balanced natural colour.",
+      "image": {
+        "s3_key": "shivaji/reference/locations/konkan-coast.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/konkan-coast.png",
+        "local": "reference/locations/konkan-coast.png"
+      }
     }
   }
 }

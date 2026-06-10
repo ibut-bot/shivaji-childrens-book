@@ -1,0 +1,86 @@
+{
+  "_comment": "Key illustrated events for Chapter 19 — Into Javli (CLIMAX / set-piece). Verified spine: Jan 1656 Shivaji took a light Maval force THROUGH the 'impassable' Javli forest, conquered the More clan, opened the Konkan/sea, and first saw the colossal hill Rairi (later rebuilt as Raigad). MORAL framing (sensitivity + honesty): conflict is Maratha-vs-Maratha politics, NEVER community; the chief's death + the fighting are kept OFF-PAGE / NON-GRAPHIC and cut-away (NO gore, NO blood, NO depicted killing) — the victory is sober, un-glorified. Shivaji = LOCKED adult young-man ref (sturdy, full thick black beard + bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, several pearl necklaces, small red upward-crescent chandrakor). 'anchor' is an EXACT substring of chapters/ch19.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 19,
+  "events": [
+    {
+      "slug": "ch19-into-the-forest",
+      "title": "The forest no army could cross",
+      "anchor": "prepared to do the thing that could not be done",
+      "hero": true,
+      "scene_prompt": "A grey cold January dawn at the edge of the great Javli forest (matching the javli-forest reference — dense dark wooded ravines, mist): Shivaji (the locked adult young-man reference — sturdy build, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with the rear PEAK and tassel hanging DOWN at the BACK, several pearl necklaces, chandrakor) stands at the treeline, grave and resolute, about to lead his men into the forest. Around and behind him his lean, light, white-clad Maval foot-soldiers (matching the mavala-soldier reference — maroon twin-peaked phetas, white tunics, orange sashes, talwars and small round shields) wait quietly, ready to move into the trees. Cold misty dawn light, breath visible, hushed tense mood — the calm before an impossible march. NO fighting, NO blood. Shivaji matches his reference exactly. Give each soldier a DISTINCT face, age and build.",
+      "refs": [
+        "shivaji-young-man",
+        "mavala-soldier",
+        "javli-forest"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch19/ch19-into-the-forest.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch19/ch19-into-the-forest.png",
+        "local": "reference/events/ch19/ch19-into-the-forest.png"
+      }
+    },
+    {
+      "slug": "ch19-we-are-at-home",
+      "title": "We're at home",
+      "anchor": "We're at home.",
+      "scene_prompt": "Deep inside the dense Javli forest in dim green half-light (matching the javli-forest reference): Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, pearl necklaces, chandrakor) and his big powerful companion Tanaji Malusare (matching the tanaji-malusare reference — broad, bold moustache, white tunic, bold red sash, wide flat twin-peaked maroon Mavala pheta, big fierce grin) move silently single-file along a thin forest deer-path with their Maval men, hands raised passing word down the line, utterly at ease in the trees — creatures of the hills slipping through country that was supposed to swallow them. Quiet, confident, stealthy mood; fording a cold stream on stones, climbing roots like ladders. Dim dappled green light, mist. NO fighting. Both match their references; vary the soldiers' faces.",
+      "refs": [
+        "shivaji-young-man",
+        "tanaji-malusare",
+        "javli-forest"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch19/ch19-we-are-at-home.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch19/ch19-we-are-at-home.png",
+        "local": "reference/events/ch19/ch19-we-are-at-home.png"
+      }
+    },
+    {
+      "slug": "ch19-javli-falls",
+      "title": "Javli had fallen",
+      "anchor": "His flag flew over the Mores' strongholds now",
+      "scene_prompt": "A SOBER, quiet aftermath scene (NO battle, NO gore, NO bodies) — the morning after the conquest: Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, pearl necklaces, chandrakor) walks quietly through the conquered Javli forest country, his saffron banner now raised over a captured forest stronghold / gateway among the trees behind him. His expression is grave, thoughtful, WITHOUT triumph — a man carrying the cost of a hard victory, not celebrating it. A few weary Maval soldiers (matching the mavala-soldier reference) stand quietly nearby, subdued. Soft overcast forest light, hushed and heavy mood. NO violence, NO blood, NO dead. Shivaji matches his reference exactly; vary the soldiers' faces.",
+      "refs": [
+        "shivaji-young-man",
+        "mavala-soldier",
+        "javli-forest"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch19/ch19-javli-falls.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch19/ch19-javli-falls.png",
+        "local": "reference/events/ch19/ch19-javli-falls.png"
+      }
+    },
+    {
+      "slug": "ch19-the-sea",
+      "title": "A kingdom that could reach the sea",
+      "anchor": "a thin bright line that was the sea",
+      "scene_prompt": "An awe-filled scene on a high western Sahyadri ridge at golden-hour: Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, several pearl necklaces, chandrakor) stands at the cliff-edge with a couple of companions, seen from behind or in profile, gazing out and down over the vast Konkan lowland (matching the konkan-coast reference — ridge after forested ridge tumbling down into a hazy green coastal vastness, with a thin bright silver line of distant sea on the far horizon). His posture and face show wonder and dawning ambition — a man measuring a whole new kind of kingdom. Immense depth and distance, layered haze, big luminous sky. Quiet, expansive, hopeful mood. Shivaji matches his reference exactly.",
+      "refs": [
+        "shivaji-young-man",
+        "konkan-coast"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch19/ch19-the-sea.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch19/ch19-the-sea.png",
+        "local": "reference/events/ch19/ch19-the-sea.png"
+      }
+    },
+    {
+      "slug": "ch19-raigad",
+      "title": "The heart of everything",
+      "anchor": "it might be the heart of everything",
+      "hero": true,
+      "scene_prompt": "A scene of destiny and awe: Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with rear PEAK + tassel hanging DOWN at the BACK, several pearl necklaces, chandrakor) stands small at the foot of the colossal lonely hill Rairi (matching the raigad-hill reference — an immense isolated table-topped mountain with sheer dark cliffs on every side and a broad flat high crown, completely WILD and UNBUILT, NO fort or walls or buildings on it), his head tipped back, gazing UP the towering cliffs with quiet wonder and recognition — seeing not what the hill is but what it could become. His horse and a few hushed companions wait behind him. Late afternoon light, the great hill dominating the frame, awe-inspiring scale, a sense of destiny. The mountain is BARE — emphatically no fortress yet. Shivaji matches his reference exactly.",
+      "refs": [
+        "shivaji-young-man",
+        "raigad-hill"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch19/ch19-raigad.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch19/ch19-raigad.png",
+        "local": "reference/events/ch19/ch19-raigad.png"
+      }
+    }
+  ]
+}
