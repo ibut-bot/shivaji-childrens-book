@@ -1,0 +1,87 @@
+{
+  "_comment": "Key illustrated events for Chapter 20 — The Watchtower (VOL 1 FINALE / set-piece). Verified spine: ~1656 Shivaji builds the new fort PRATAPGAD (engineer Moropant Trimbak Pingle) to guard the newly won Javli/Konkan-gateway country; meanwhile Bijapur resolves to crush him and sends the giant general AFZAL KHAN, who vows to bring the rebel back in chains (the actual confrontation = 1659 = Vol 2; here it is the gathering storm). Themes harvested: boy born in stone now builds his own forts; 'a roof, not a storm'; Swarajya made real. JIRETOP GUARD: Shivaji's cream/white jiretop has a SINGLE rear peak + EXACTLY ONE single tassel hanging straight DOWN at the BACK — never a dome, never a double/twin tassel (it drifts). Shivaji = LOCKED adult young-man ref (sturdy, full thick black beard + bold upturned moustache, pearls, chandrakor). 'anchor' is an EXACT substring of chapters/ch20.md. 'refs' are entity slugs from reference/index.json.",
+  "chapter": 20,
+  "events": [
+    {
+      "slug": "ch20-building-pratapgad",
+      "title": "A fort being born",
+      "anchor": "watched his fort come up out of the ground",
+      "hero": true,
+      "scene_prompt": "A bright, energetic daytime construction scene on a high commanding Sahyadri ridge: Shivaji's brand-new fort PRATAPGAD rising HALF-BUILT (matching the pratapgad-fort reference — fresh pale dressed-stone ramparts partly raised with timber scaffolding, stacks of cut stone, earth ramps, open gateway gaps, busy with hundreds of labourers). In the middle of the work stands Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, iconic cream/white jiretop turban with a SINGLE rear peak and EXACTLY ONE tassel hanging straight down at the BACK — NOT a dome, NOT a double tassel; several pearl necklaces, chandrakor), a little white stone-dust on his clothes, proud and glad, directing and watching his fort come up out of the ground. Maval workers and overseers (matching the mavala-soldier reference for the guards) raise stone blocks up the slope. Green ridges and big Deccan sky, Konkan haze far below, dust and sunlight, the energy of building. Shivaji matches his reference exactly. Vary every worker's face, age and build.",
+      "refs": [
+        "shivaji-young-man",
+        "pratapgad-fort",
+        "mavala-soldier"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch20/ch20-building-pratapgad.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch20/ch20-building-pratapgad.png",
+        "local": "reference/events/ch20/ch20-building-pratapgad.png"
+      }
+    },
+    {
+      "slug": "ch20-walls-with-jijabai",
+      "title": "A vow turned into a mountain",
+      "anchor": "looked out the way he was looking",
+      "scene_prompt": "A tender, golden-hour evening scene on the unfinished ramparts of Pratapgad (matching the pratapgad-fort reference — raw new stone parapet, scaffolding): Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, cream/white jiretop turban with a SINGLE rear peak and ONE single tassel hanging down at the BACK — not a dome, not a double tassel; pearl necklaces, chandrakor) stands beside his mother Jijabai, both looking out west over the hazy ridges toward the distant lowland. Jijabai (matching the jijabai reference — maroon nine-yard nauvari saree with green-gold border, gold nath nose-ring, head-shawl) is OLDER here, her hair grey under her shawl, dignified and moved, with a small red upward-crescent chandrakor on her forehead; one hand resting on the rough new stone of the parapet. A quiet, loving, proud mother-and-son moment — bookending the very first chapter's rampart scene. Warm low evening light, deep distance, reflective hopeful mood. Both match their references.",
+      "refs": [
+        "shivaji-young-man",
+        "jijabai",
+        "pratapgad-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch20/ch20-walls-with-jijabai.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch20/ch20-walls-with-jijabai.png",
+        "local": "reference/events/ch20/ch20-walls-with-jijabai.png"
+      }
+    },
+    {
+      "slug": "ch20-the-news",
+      "title": "Word from the south",
+      "anchor": "ridden hard from the south",
+      "scene_prompt": "A tense scene on the half-built ramparts of Pratapgad (matching the pratapgad-fort reference): one of Bahirji Naik's quiet, dusty, ordinary-looking scout-spies (matching the bahirji-naik reference — a lean, plain, unremarkable Maratha man in humble travel-stained traveller's clothes, sharp watchful eyes), just arrived after riding hard, reports urgent grave news to Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, cream/white jiretop turban with a SINGLE rear peak and ONE single tassel at the BACK — not a dome, not a double tassel; pearl necklaces, chandrakor), who listens intently, serious and still. A few grim Maval companions stand close. Raw new stone, scaffolding, evening light, hushed ominous mood — bad news arriving. Shivaji matches his reference exactly; the spy is deliberately plain and travel-worn.",
+      "refs": [
+        "shivaji-young-man",
+        "bahirji-naik",
+        "pratapgad-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch20/ch20-the-news.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch20/ch20-the-news.png",
+        "local": "reference/events/ch20/ch20-the-news.png"
+      }
+    },
+    {
+      "slug": "ch20-afzal-khan-vow",
+      "title": "The giant's oath",
+      "anchor": "His name was Afzal Khan.",
+      "hero": true,
+      "scene_prompt": "A 'meanwhile, far away in Bijapur' scene of menace and power, in the opulent Adilshahi court (matching the bijapur-court reference — soaring scalloped arches, rich carpets, hanging lamps, a high canopied throne): the giant general Afzal Khan (matching the afzal-khan reference — a TOWERING, broad, immensely large and powerful middle-aged Deccan general in grand mail-and-plate armour over rich silk, big full dark beard, plumed helmet or jewelled battle-turban, a large curved talwar) stands before the court swearing his oath to crush the rebel — one fist clenched or a hand on his great sword, his expression hard, confident and contemptuous, dominating the hall with his sheer size. Courtiers and the seated sultan look on. Grand, imposing, ominous villain-reveal mood — the storm gathering. NO Shivaji in this scene. Afzal Khan matches his reference exactly; emphasise his great size. Vary the courtiers' faces.",
+      "refs": [
+        "afzal-khan",
+        "bijapur-court"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch20/ch20-afzal-khan-vow.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch20/ch20-afzal-khan-vow.png",
+        "local": "reference/events/ch20/ch20-afzal-khan-vow.png"
+      }
+    },
+    {
+      "slug": "ch20-the-watchtower",
+      "title": "Waiting on a mountain of his own making",
+      "anchor": "a mountain of his own making",
+      "hero": true,
+      "scene_prompt": "The CLOSING IMAGE of Volume 1 — heroic and resolute at dusk/torchlight: Shivaji (the locked adult young-man reference — sturdy, full thick black beard and bold upturned moustache, cream/white jiretop turban with a SINGLE rear peak and EXACTLY ONE tassel hanging straight down at the BACK — not a dome, not a double tassel; several pearl necklaces, chandrakor) stands tall and calm and unafraid on the unfinished ramparts of his new fort Pratapgad (matching the pratapgad-fort reference — raw new stone, scaffolding, torchlit), one hand on the rough new parapet, looking out toward the dark hills to the south where the coming storm gathers. His expression is steady, ready, almost glad — a warrior-king at home on his own mountain, awaiting a giant. Behind/below, work on the fort continues by torchlight. Dramatic dusk sky, torch-glow, sweeping Sahyadri ranges, a sense of destiny and of a chapter closing and a greater one about to open. Shivaji matches his reference exactly.",
+      "refs": [
+        "shivaji-young-man",
+        "pratapgad-fort"
+      ],
+      "image": {
+        "s3_key": "shivaji/events/ch20/ch20-the-watchtower.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/events/ch20/ch20-the-watchtower.png",
+        "local": "reference/events/ch20/ch20-the-watchtower.png"
+      }
+    }
+  ]
+}

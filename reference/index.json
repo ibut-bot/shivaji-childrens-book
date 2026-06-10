@@ -611,6 +611,32 @@
         "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/konkan-coast.png",
         "local": "reference/locations/konkan-coast.png"
       }
+    },
+    "pratapgad-fort": {
+      "slug": "pratapgad-fort",
+      "name": "Pratapgad (under construction)",
+      "type": "location",
+      "first_chapter": 20,
+      "visual_description": "Pratapgad, Shivaji's brand-new hill-fort, shown HALF-BUILT and UNDER CONSTRUCTION around 1656 on a high commanding ridge above the western Sahyadri forest country. NEW and raw, NOT a weathered ancient fort: the first proud courses of pale fresh-dressed stone ramparts curve along the cliff-edge, with timber scaffolding lashed up the walls, ramps of earth, stacks of cut stone blocks, and open gaps where the great gates will one day hang. Hundreds of labourers and Maval workers raise blocks up the slope; overseers direct the work. Bright pale new stone against green ridges and big Deccan sky, the Konkan haze far below. A fortress visibly being BORN — energy, dust, building. (NOT the finished two-tiered fort — it is mid-construction.)",
+      "ref_prompt": "Wide establishing view of a half-built 17th-century Maratha hill-fort under active construction on a high ridge — fresh pale dressed-stone ramparts partly raised with timber scaffolding, stacks of cut stone, earth ramps, open gateway gaps, busy with labourers, green Sahyadri ridges and hazy lowland beyond, soft natural daylight, balanced colour (avoid an artificial yellow wash).",
+      "image": {
+        "s3_key": "shivaji/reference/locations/pratapgad-fort.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/locations/pratapgad-fort.png",
+        "local": "reference/locations/pratapgad-fort.png"
+      }
+    },
+    "afzal-khan": {
+      "slug": "afzal-khan",
+      "name": "Afzal Khan (Bijapur general; Vol 2 antagonist)",
+      "type": "character",
+      "first_chapter": 20,
+      "visual_description": "Afzal Khan, the giant, feared Bijapur (Adilshahi) general the court sends to crush Shivaji — an individual antagonist depicted with martial dignity, scale and menace, NOT a caricature and never a stand-in for any people or faith. A MOUNTAIN of a man: exceptionally tall, broad, heavy and immensely strong, clearly larger and more imposing than other men, with a big full dark beard and moustache and a hard, confident, contemptuous expression. He wears the grand war-gear of a very senior 17th-century Deccan commander, richer and heavier than an ordinary general's: fine Indo-Persian mail-and-plate armour with lobed steel chest plates over an opulent rich silk coat with gold work, a jewelled sash, and a fine domed steel helmet with a plume and chainmail neck-guard (or a rich jewelled battle-turban). He carries a large, heavy curved talwar and a big round steel shield. Towering, powerful, dangerous, arrogant — grander, bigger and more individual than the ordinary heavy sultanate trooper or the general Fateh Khan.",
+      "ref_prompt": "Character reference sheet: full-length figure of the towering, heavily-built middle-aged general in grand mail-and-plate armour and rich silk coat with a plumed helmet, a large curved talwar and round shield, an imposing menacing confident bearing emphasising his great size and strength, plain soft pale background, full body clearly visible.",
+      "image": {
+        "s3_key": "shivaji/reference/characters/afzal-khan.png",
+        "url": "https://hel1.your-objectstorage.com/openclaw83/shivaji/reference/characters/afzal-khan.png",
+        "local": "reference/characters/afzal-khan.png"
+      }
     }
   }
 }
