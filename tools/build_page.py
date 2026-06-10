@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""Build the illustrated web page for a chapter.
+"""Build the illustrated web book for the Shivaji series.
 
-  build_page.py ch01        -> writes pages/ch01.html (+ refreshes pages/index.html)
-  build_page.py all         -> builds every chapter that has a markdown file
+  build_page.py ch01        -> writes docs/ch01.html (+ refreshes the matter pages)
+  build_page.py all         -> builds every chapter + all front/back matter
 
-Layout (what the user asked for):
-  * Reference images for the chapter's new cast/places/objects in a gallery at
-    the START of the chapter.
-  * The chapter prose, with each event illustration inserted inline right after
-    the paragraph where that event happens (matched by its text anchor).
+Reading flow (the "spine"):
+  Cover (index.html) -> Dedication -> For Ansh -> Contents
+    -> Chapter 1 ... Chapter 20
+    -> Timeline -> Back cover
 
-Images use the public Hetzner URLs, so the page is portable. No external libs.
+Chapter pages show a reference gallery for the chapter's new cast/places at the
+top, and event illustrations inline after their text anchor. Images use public
+Hetzner URLs so the site is portable. No external libs.
 """
 from __future__ import annotations
 
@@ -36,6 +37,15 @@ CHAPTERS = ROOT / "chapters"
 PAGES = ROOT / "docs"  # served by GitHub Pages (source: master /docs)
 INDEX = ROOT / "reference" / "index.json"
 EVENTS_DIR = ROOT / "reference" / "events"
+
+COVER_FRONT_URL = "https://hel1.your-objectstorage.com/openclaw83/shivaji/cover/cover-front.png"
+COVER_BACK_URL = "https://hel1.your-objectstorage.com/openclaw83/shivaji/cover/cover.png"
+
+# Front/back matter pages, in spine order. (chapters slot in between.)
+FRONT_MATTER = [("index", "Cover"), ("dedication", "Dedication"),
+                ("for-ansh", "For Ansh"), ("contents", "Contents")]
+BACK_MATTER = [("timeline", "Timeline"), ("back-cover", "Back cover")]
+MATTER_LABELS = {slug: label for slug, label in FRONT_MATTER + BACK_MATTER}
 
 
 # --------------------------------------------------------------------------- #
@@ -90,20 +100,35 @@ def chapter_title(stem: str) -> str:
     return next((t for k, t in blocks(md) if k == "h1"), stem)
 
 
-def nav_html(chap: str, position: str) -> str:
-    """Prev / Contents / Next navigation bar for a chapter page."""
+# --------------------------------------------------------------------------- #
+# spine + navigation
+# --------------------------------------------------------------------------- #
+def spine() -> list[str]:
     chaps = sorted(p.stem for p in CHAPTERS.glob("ch*.md"))
-    i = chaps.index(chap)
-    prev = chaps[i - 1] if i > 0 else None
-    nxt = chaps[i + 1] if i < len(chaps) - 1 else None
-    left = (f'<a class="nav-prev" href="{prev}.html">&larr; {html.escape(chapter_title(prev))}</a>'
-            if prev else '<span class="nav-prev nav-disabled">&larr; Start</span>')
-    right = (f'<a class="nav-next" href="{nxt}.html">{html.escape(chapter_title(nxt))} &rarr;</a>'
+    return [s for s, _ in FRONT_MATTER] + chaps + [s for s, _ in BACK_MATTER]
+
+
+def label_for(slug: str) -> str:
+    if slug in MATTER_LABELS:
+        return MATTER_LABELS[slug]
+    return chapter_title(slug)
+
+
+def nav_html(slug: str, position: str) -> str:
+    """Prev / Contents / Next bar, derived from the whole-book spine."""
+    sp = spine()
+    i = sp.index(slug)
+    prev = sp[i - 1] if i > 0 else None
+    nxt = sp[i + 1] if i < len(sp) - 1 else None
+    left = (f'<a class="nav-prev" href="{prev}.html">&larr; {html.escape(label_for(prev))}</a>'
+            if prev else '<span class="nav-prev nav-disabled">&larr; Cover</span>')
+    right = (f'<a class="nav-next" href="{nxt}.html">{html.escape(label_for(nxt))} &rarr;</a>'
              if nxt else '<span class="nav-next nav-disabled">The End &rarr;</span>')
-    mid = '<a class="nav-toc" href="index.html">Contents</a>'
+    mid = '<a class="nav-toc" href="contents.html">Contents</a>'
     return f'<nav class="chapter-nav {position}">{left}{mid}{right}</nav>'
 
 
+# --------------------------------------------------------------------------- #
 def build_chapter(chap: str) -> Path:
     md = (CHAPTERS / f"{chap}.md").read_text()
     idx = json.loads(INDEX.read_text())
@@ -169,18 +194,94 @@ def build_chapter(chap: str) -> Path:
     return out
 
 
-COVER_URL = "https://hel1.your-objectstorage.com/openclaw83/shivaji/cover/cover.png"
+# --------------------------------------------------------------------------- #
+# front / back matter pages
+# --------------------------------------------------------------------------- #
+def build_cover():
+    (PAGES / "index.html").write_text(COVER_TMPL.replace("{cover}", bust(COVER_FRONT_URL)))
 
 
-def build_index():
-    chaps = sorted(p.stem for p in PAGES.glob("ch*.html"))
+def build_dedication():
+    (PAGES / "dedication.html").write_text(DEDICATION_TMPL)
+
+
+def build_foransh():
+    (PAGES / "for-ansh.html").write_text(FORANSH_TMPL)
+
+
+def build_contents():
+    chaps = sorted(p.stem for p in CHAPTERS.glob("ch*.md"))
     items = "\n".join(
-        f'<li><a href="{c}.html">Chapter {int(re.sub(r"[^0-9]", "", c))} — {html.escape(chapter_title(c)).split("— ",1)[-1]}</a></li>'
+        f'<li><a href="{c}.html">Chapter {int(re.sub(r"[^0-9]", "", c))} '
+        f'<span class="ct">{html.escape(chapter_title(c)).split("— ", 1)[-1]}</span></a></li>'
         for c in chaps)
-    (PAGES / "index.html").write_text(INDEX_TMPL.format(items=items, cover=bust(COVER_URL)))
+    first = chaps[0] if chaps else "ch01"
+    (PAGES / "contents.html").write_text(
+        CONTENTS_TMPL.replace("{items}", items)
+                     .replace("{cover}", bust(COVER_FRONT_URL))
+                     .replace("{first}", first))
+
+
+def build_timeline():
+    rows = "\n".join(
+        f'<li><span class="yr">{html.escape(y)}</span>'
+        f'<span class="ev">{inline(t)}{(" " + f"<a class=ch href={c}.html>({label_for(c).split(chr(8212))[0].strip()})</a>") if c else ""}</span></li>'
+        for y, t, c in TIMELINE)
+    (PAGES / "timeline.html").write_text(
+        TIMELINE_TMPL.replace("{rows}", rows)
+                     .replace("{nav_top}", nav_html("timeline", "top"))
+                     .replace("{nav_bottom}", nav_html("timeline", "bottom")))
+
+
+def build_backcover():
+    (PAGES / "back-cover.html").write_text(
+        BACKCOVER_TMPL.replace("{cover}", bust(COVER_BACK_URL))
+                      .replace("{nav_top}", nav_html("back-cover", "top")))
+
+
+def build_matter():
+    build_cover()
+    build_dedication()
+    build_foransh()
+    build_contents()
+    build_timeline()
+    build_backcover()
 
 
 # --------------------------------------------------------------------------- #
+# Timeline data (year, event, chapter-slug-or-None)
+# --------------------------------------------------------------------------- #
+TIMELINE = [
+    ("1629", "Jijabai travels to the safety of Shivneri fort through a war-torn Deccan.", "ch01"),
+    ("Feb 1630", "**Shivaji is born** inside Shivneri fort.", "ch01"),
+    ("1636", "Shahaji enters Bijapur's service and is sent far south; Jijabai and Shivaji are settled at Pune.", "ch04"),
+    ("late 1630s", "Pune, wrecked by war, is rebuilt and resettled under Jijabai and Dadoji Konddev.", "ch05"),
+    ("1640s", "Shivaji trains under Dadoji and gathers his band of Maval companions in the hills.", "ch07"),
+    ("1645", "The **oath of Swarajya** is sworn at the temple of Raireshwar.", "ch09"),
+    ("1646", "Shivaji takes his first fort, **Torna**, at the age of sixteen.", "ch11"),
+    ("1646–47", "Rajgad is built; Kondhana and Purandar are won by wit.", "ch12"),
+    ("1647", "Dadoji Konddev dies; Shivaji takes full charge and raises his own royal seal.", "ch14"),
+    ("1648", "Shahaji is arrested by treachery; Shivaji wins his first true battle at Purandar.", "ch15"),
+    ("1649", "A daring letter to the Mughal prince helps free Shahaji.", "ch16"),
+    ("1650–55", "The quiet years: Shivaji builds an army, forts, fair rule, and a network of spies.", "ch17"),
+    ("Jan 1656", "Shivaji conquers the forest kingdom of **Javli** and first sees the great hill of Raigad.", "ch19"),
+    ("1656", "**Pratapgad** is begun; Bijapur sends the giant general Afzal Khan. (End of Volume 1.)", "ch20"),
+]
+
+
+# --------------------------------------------------------------------------- #
+# shared CSS (kept in sync across all pages)
+# --------------------------------------------------------------------------- #
+BASE_CSS = """
+  :root { --ink:#2b2118; --paper:#fbf6ec; --accent:#8a3a1f; --soft:#efe6d3; --gold:#b6892f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:Georgia,"Iowan Old Style",serif; line-height:1.7; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .series { letter-spacing:.18em; text-transform:uppercase; font-size:.72rem; color:var(--accent); }
+"""
+
 PAGE_TMPL = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -249,29 +350,211 @@ PAGE_TMPL = """<!DOCTYPE html>
 </html>
 """
 
-INDEX_TMPL = """<!DOCTYPE html>
+# --- Front cover (index.html) -------------------------------------------------
+COVER_TMPL = """<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Boy of Shivneri — Contents</title>
+<title>The Boy of Shivneri — Chhatrapati Shivaji, Volume 1</title>
 <style>
-  body {{ background:#fbf6ec; color:#2b2118; font-family:Georgia,serif;
-    max-width:640px; margin:0 auto; padding:3rem 1.25rem; line-height:1.7; }}
-  .series {{ letter-spacing:.18em; text-transform:uppercase; font-size:.72rem; color:#8a3a1f; }}
-  h1 {{ margin:.3rem 0 1.5rem; }}
-  img.cover {{ display:block; width:100%; max-width:460px; margin:0 auto 2.2rem;
-    border-radius:6px; box-shadow:0 10px 34px rgba(60,40,20,.28); }}
-  h2.toc {{ text-align:center; color:#8a3a1f; font-size:.82rem; letter-spacing:.14em;
-    text-transform:uppercase; border-top:1px solid #efe6d3; border-bottom:1px solid #efe6d3;
-    padding:.6rem 0; margin:0 0 1.2rem; }}
-  ul {{ list-style:none; padding:0; }}
-  li {{ margin:.4rem 0; font-size:1.2rem; }}
-  a {{ color:#8a3a1f; text-decoration:none; }}
-  a:hover {{ text-decoration:underline; }}
+""" + BASE_CSS + """
+  .cover-wrap { min-height:100vh; display:flex; flex-direction:column; align-items:center;
+    justify-content:center; text-align:center; padding:2rem 1.25rem 3rem;
+    background:radial-gradient(circle at 50% 20%, #fff8ec, var(--paper)); }
+  .cover-art { position:relative; max-width:460px; width:100%; }
+  .cover-art img { width:100%; border-radius:10px;
+    box-shadow:0 18px 50px rgba(60,40,20,.42); }
+  .cover-series { margin-top:1.6rem; }
+  h1.title { font-size:2.7rem; line-height:1.1; margin:.5rem 0 .2rem; color:var(--ink); }
+  .subtitle { font-size:1.15rem; color:var(--accent); font-style:italic; }
+  .open { display:inline-block; margin-top:1.8rem; padding:.7rem 1.6rem;
+    border:2px solid var(--accent); border-radius:999px; font-size:1rem; color:var(--accent); }
+  .open:hover { background:var(--accent); color:var(--paper); text-decoration:none; }
 </style></head>
 <body>
-  <img class="cover" src="{cover}" alt="The Boy of Shivneri — cover">
-  <h2 class="toc">Contents</h2>
-  <ul>{items}</ul>
+  <div class="cover-wrap">
+    <div class="cover-art"><img src="{cover}" alt="The Boy of Shivneri — cover"></div>
+    <div class="cover-series">
+      <div class="series">Chhatrapati Shivaji &middot; Volume 1</div>
+      <h1 class="title">The Boy of Shivneri</h1>
+      <div class="subtitle">The childhood and rise of Shivaji Maharaj</div>
+      <a class="open" href="dedication.html">Open the book &rarr;</a>
+    </div>
+  </div>
+</body></html>
+"""
+
+# --- Dedication / heritage page ----------------------------------------------
+DEDICATION_TMPL = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dedication — The Boy of Shivneri</title>
+<style>
+""" + BASE_CSS + """
+  .center { min-height:100vh; display:flex; flex-direction:column; align-items:center;
+    justify-content:center; text-align:center; padding:3rem 1.5rem; }
+  .flourish { color:var(--gold); font-size:1.8rem; letter-spacing:.3em; margin-bottom:1.5rem; }
+  .dedi { max-width:560px; font-size:1.5rem; line-height:1.6; color:var(--ink); }
+  .dedi em { color:var(--accent); font-style:italic; }
+  .more { margin-top:2.5rem; font-size:.95rem; }
+  .more a { margin:0 .8rem; }
+</style></head>
+<body>
+  <div class="center">
+    <div class="flourish">&#10070; &#10070; &#10070;</div>
+    <p class="dedi">This book is offered as a <em>heritage</em> to all Marathi children &mdash;
+       in every corner of the world.<br><br>
+       May you grow up knowing whose hills these were, and what one boy dared to dream upon them.</p>
+    <p class="more">
+      <a href="index.html">&larr; Cover</a>
+      <a href="for-ansh.html">Continue &rarr;</a>
+    </p>
+  </div>
+</body></html>
+"""
+
+# --- "For Ansh" page ----------------------------------------------------------
+FORANSH_TMPL = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Ansh — The Boy of Shivneri</title>
+<style>
+""" + BASE_CSS + """
+  .center { min-height:100vh; display:flex; flex-direction:column; align-items:center;
+    justify-content:center; text-align:center; padding:3rem 1.5rem; }
+  .for { font-size:1.1rem; letter-spacing:.35em; text-transform:uppercase; color:var(--accent); }
+  .name { font-size:4.2rem; margin:.4rem 0 0; color:var(--ink); }
+  .more { margin-top:3rem; font-size:.95rem; }
+  .more a { margin:0 .8rem; }
+</style></head>
+<body>
+  <div class="center">
+    <div class="for">For</div>
+    <h1 class="name">Ansh</h1>
+    <p class="more">
+      <a href="dedication.html">&larr; Back</a>
+      <a href="contents.html">Contents &rarr;</a>
+    </p>
+  </div>
+</body></html>
+"""
+
+# --- Contents (contents.html) ------------------------------------------------
+CONTENTS_TMPL = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contents — The Boy of Shivneri</title>
+<style>
+""" + BASE_CSS + """
+  .wrap { max-width:640px; margin:0 auto; padding:3rem 1.25rem 5rem; }
+  img.cover { display:block; width:100%; max-width:300px; margin:0 auto 1.8rem;
+    border-radius:8px; box-shadow:0 10px 34px rgba(60,40,20,.30); }
+  h1 { text-align:center; margin:.3rem 0 .2rem; font-size:1.9rem; }
+  .subtitle { text-align:center; color:var(--accent); font-style:italic; margin-bottom:1.6rem; }
+  h2.toc { text-align:center; color:var(--accent); font-size:.82rem; letter-spacing:.14em;
+    text-transform:uppercase; border-top:1px solid var(--soft); border-bottom:1px solid var(--soft);
+    padding:.6rem 0; margin:1.4rem 0 1.2rem; }
+  ul { list-style:none; padding:0; }
+  li { margin:.3rem 0; font-size:1.12rem; border-bottom:1px dotted #e0d4bd; padding:.35rem 0; }
+  li a { display:flex; gap:.6rem; }
+  li .ct { color:var(--ink); }
+  .backmatter { margin-top:1.6rem; font-size:1rem; }
+  .backmatter a { display:block; margin:.3rem 0; }
+  .begin { display:block; text-align:center; margin:2rem 0 .5rem; padding:.7rem 1.6rem;
+    border:2px solid var(--accent); border-radius:999px; }
+  .begin:hover { background:var(--accent); color:var(--paper); text-decoration:none; }
+  .topnav { text-align:center; margin-bottom:1.2rem; font-size:.92rem; }
+  .topnav a { margin:0 .7rem; }
+</style></head>
+<body>
+  <div class="wrap">
+    <div class="topnav"><a href="for-ansh.html">&larr; For Ansh</a></div>
+    <img class="cover" src="{cover}" alt="The Boy of Shivneri">
+    <div class="series" style="text-align:center">Chhatrapati Shivaji &middot; Volume 1</div>
+    <h1>The Boy of Shivneri</h1>
+    <div class="subtitle">The childhood and rise of Shivaji Maharaj</div>
+    <h2 class="toc">Contents</h2>
+    <ul>{items}</ul>
+    <div class="backmatter">
+      <strong>At the back of the book</strong>
+      <a href="timeline.html">&#9656; Timeline &mdash; 1629 to 1656</a>
+    </div>
+    <a class="begin" href="{first}.html">Begin the story &rarr;</a>
+  </div>
+</body></html>
+"""
+
+# --- Timeline (back matter) ---------------------------------------------------
+TIMELINE_TMPL = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timeline — The Boy of Shivneri</title>
+<style>
+""" + BASE_CSS + """
+  .wrap { max-width:720px; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  header.book { text-align:center; border-bottom:2px solid var(--soft); padding-bottom:1.5rem; margin-bottom:2rem; }
+  h1 { font-size:2.1rem; margin:.4rem 0 0; }
+  .lede { text-align:center; color:#6b5d49; font-style:italic; max-width:560px; margin:.6rem auto 0; }
+  ul.timeline { list-style:none; padding:0; margin:2rem 0 0; }
+  ul.timeline li { display:flex; gap:1rem; padding:.9rem 0; border-bottom:1px dotted #e0d4bd; align-items:baseline; }
+  ul.timeline .yr { flex:0 0 6.5rem; font-weight:bold; color:var(--accent); font-size:1rem; }
+  ul.timeline .ev { flex:1; font-size:1.08rem; }
+  ul.timeline .ch { font-size:.82rem; color:#9a7b3f; white-space:nowrap; }
+  .chapter-nav { display:flex; align-items:center; gap:.6rem; margin:1.4rem 0;
+    padding:.7rem 0; border-top:1px solid var(--soft); border-bottom:1px solid var(--soft); }
+  .chapter-nav.top { margin-top:0; }
+  .chapter-nav.bottom { margin-top:2.5rem; }
+  .chapter-nav > * { flex:1; font-size:.92rem; color:var(--accent); }
+  .chapter-nav .nav-prev { text-align:left; }
+  .chapter-nav .nav-toc { text-align:center; font-weight:bold; }
+  .chapter-nav .nav-next { text-align:right; }
+  .chapter-nav .nav-disabled { color:#c9bca5; }
+</style></head>
+<body>
+  <div class="wrap">
+    {nav_top}
+    <header class="book">
+      <div class="series">Chhatrapati Shivaji &middot; Volume 1 &middot; The Boy of Shivneri</div>
+      <h1>Timeline</h1>
+      <p class="lede">The years of this book, from a mother's journey to a giant's challenge &mdash; 1629 to 1656.</p>
+    </header>
+    <ul class="timeline">{rows}</ul>
+    {nav_bottom}
+  </div>
+</body></html>
+"""
+
+# --- Back cover ---------------------------------------------------------------
+BACKCOVER_TMPL = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Boy of Shivneri</title>
+<style>
+""" + BASE_CSS + """
+  .wrap { max-width:560px; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+  .chapter-nav { display:flex; align-items:center; gap:.6rem; margin:0 0 2rem;
+    padding:.7rem 0; border-bottom:1px solid var(--soft); }
+  .chapter-nav > * { flex:1; font-size:.92rem; color:var(--accent); }
+  .chapter-nav .nav-prev { text-align:left; }
+  .chapter-nav .nav-toc { text-align:center; font-weight:bold; }
+  .chapter-nav .nav-next { text-align:right; }
+  .chapter-nav .nav-disabled { color:#c9bca5; }
+  img.cover { display:block; width:100%; max-width:420px; margin:0 auto 2rem;
+    border-radius:8px; box-shadow:0 12px 38px rgba(60,40,20,.34); }
+  .blurb { text-align:center; font-size:1.12rem; }
+  .blurb .big { font-size:1.35rem; color:var(--accent); font-style:italic; display:block; margin-bottom:1rem; }
+  .next-up { margin-top:2.2rem; text-align:center; color:#6b5d49; font-size:.98rem; }
+</style></head>
+<body>
+  <div class="wrap">
+    {nav_top}
+    <img class="cover" src="{cover}" alt="The Boy of Shivneri — back cover">
+    <p class="blurb"><span class="big">A kingdom is not given. It is built &mdash; stone by stone,
+      and choice by choice.</span>
+      Born inside a mountain fortress while the Deccan burned, a boy grows up asking a dangerous question:
+      whose land is this, really? This is the story of how Shivaji turned a child's wish into forts, into an
+      army, into a free people&rsquo;s cause &mdash; <em>Swarajya.</em></p>
+    <p class="next-up">The story continues in <strong>Volume 2 &mdash; The Mountain Lion.</strong></p>
+  </div>
 </body></html>
 """
 
@@ -288,8 +571,9 @@ def main(argv=None):
     else:
         out = build_chapter(target)
         print("built", out.relative_to(ROOT))
-    build_index()
-    print("built", (PAGES / "index.html").relative_to(ROOT))
+    build_matter()
+    for name in ("index", "dedication", "for-ansh", "contents", "timeline", "back-cover"):
+        print("built", (PAGES / f"{name}.html").relative_to(ROOT))
 
 
 if __name__ == "__main__":
